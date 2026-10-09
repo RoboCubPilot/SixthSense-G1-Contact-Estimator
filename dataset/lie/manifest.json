@@ -1,0 +1,330 @@
+{
+  "schema": "g1_numbered_pairs/2.0",
+  "scenario": "lie",
+  "force_labels_available": false,
+  "pairs": [
+    {
+      "number": 1,
+      "directory": "1",
+      "pair_id": "lie_001",
+      "source_group": 2,
+      "recording_family": "lie_20260912-135144",
+      "split": "validation",
+      "data_file": "1/data.h5",
+      "contact_link": "unknown",
+      "limb": "left_arm",
+      "valid_force_frames": 0,
+      "frames": 300,
+      "data_sha256": "48265ba162b7a3c29990079d01e97ccfc7ec57c58310467eaa5aaee1d62180df",
+      "bag_sha256": "b445506690f4e0a780b7e35b779f6993da53686b32e9d6fadc9d2e378fb1261d",
+      "videos_sha256": {
+        "camera_1.mp4": "2f8eb3c41f8d64f536a5c95220c3336c1e655de4859258038a41b2406706c5d9",
+        "camera_2.mp4": "955e61aa89bfdcddf9091f164c28455ccac80ab61a584a7e3f0559ae02415b6a"
+      },
+      "original_data_sha256": "8016fb89dfd9f51fd1aa124ec8921405209f0f169412a0b6caddc41c53c337da"
+    },
+    {
+      "number": 2,
+      "directory": "2",
+      "pair_id": "lie_002",
+      "source_group": 2,
+      "recording_family": "lie_20260912-135144",
+      "split": "validation",
+      "data_file": "2/data.h5",
+      "contact_link": "unknown",
+      "limb": "left_arm",
+      "valid_force_frames": 0,
+      "frames": 300,
+      "data_sha256": "3af350bf3310f18a71148800059d4b7ed9d591edb72fa5953e46ba46907d38e3",
+      "bag_sha256": "c38e8f786aa4bd31ae855eaec4a7aaf4bb11a42d1ae762497b25ee2c5ecedc6b",
+      "videos_sha256": {
+        "camera_1.mp4": "601ceeb8af461d5e9e9b7657e7d65a4227867f02a9e97423828b117a1af43db5",
+        "camera_2.mp4": "61102e0e302bda87018006c0162f3cc1f20d0d553e55b780e0a063c9c48e2ed9"
+      },
+      "original_data_sha256": "1fd02baae4acbe9f1facc268aef70fe0a71eea2ffbe98180f2e150dbd201eb94"
+    },
+    {
+      "number": 6,
+      "directory": "6",
+      "pair_id": "lie_006",
+      "source_group": 2,
+      "recording_family": "lie_20260912-135144",
+      "split": "validation",
+      "data_file": "6/data.h5",
+      "contact_link": "unknown",
+      "limb": "right_arm",
+      "valid_force_frames": 0,
+      "frames": 300,
+      "data_sha256": "c780c2b7fba26a0989da7de0e9a7a04f5a039d092783f47601df7281a1c0ba5a",
+      "bag_sha256": "dcb7b773e1a8fea0501de04eeb2ec19c6dd56ab2fd97f2f364ea90c883c319b9",
+      "videos_sha256": {
+        "camera_1.mp4": "89707ed80239022d19466d6c8bdf8f150712082f2afbb3be5fe1a399216d049b",
+        "camera_2.mp4": "d58fcb1ec42f101ad048a1a450ca9fce4017f76d91981171423da91653a3ca15"
+      },
+      "original_data_sha256": "aa5b617fe73569ac848e3f649f1c6c28714a1006effd02e42025286937b3ec02"
+    },
+    {
+      "number": 7,
+      "directory": "7",
+      "pair_id": "lie_007",
+      "source_group": 2,
+      "recording_family": "lie_20260912-135144",
+      "split": "validation",
+      "data_file": "7/data.h5",
+      "contact_link": "unknown",
+      "limb": "right_arm",
+      "valid_force_frames": 0,
+      "frames": 300,
+      "data_sha256": "6ff151a8a5e9c0d1677545f6c8762df5ec4699bd144795ab39ec09e490b1ac92",
+      "bag_sha256": "43af90a98fad736b6369069732383d70ff199dc9f35876d4ae5c55869fb91923",
+      "videos_sha256": {
+        "camera_1.mp4": "c4ac4cace92ecf6a48fddbaba5fb134188154d95aac1ae9fc9a4413668e31ec8",
+        "camera_2.mp4": "73567c562e7d347a0cf5547e4a4f2a04eff609d1a3a30fd7d8f470b19b9c985d"
+      },
+      "original_data_sha256": "7442285af7d2ef81af06ece856ff6c9197910c56765d861ffd7103f648972f94"
+    },
+    {
+      "number": 12,
+      "directory": "12",
+      "pair_id": "lie_012",
+      "source_group": 2,
+      "recording_family": "lie_20260912-135144",
+      "split": "validation",
+      "data_file": "12/data.h5",
+      "contact_link": "unknown",
+      "limb": "left_leg",
+      "valid_force_frames": 0,
+      "frames": 300,
+      "data_sha256": "4dbecf53922b906d7d5b22e561385ebb5534374b66e2d18063298a5282fedf06",
+      "bag_sha256": "19cccb7c0fbe673f03f259d0b46205adc6a6f4406d89719c6459185618360f67",
+      "videos_sha256": {
+        "camera_1.mp4": "e214a1df13be969b3ca5b2ee0d15cc47ad8e2c612f3759dc8cffcb690cec331c",
+        "camera_2.mp4": "d9aedf0b93446903b00e37fcd13ed160f62ae053eca1f641ed8ac71b2a832139"
+      },
+      "original_data_sha256": "0028e9d781821d8da54ddb214947abef6c3af45f27eb9b7aec449f3fbc9ef893"
+    },
+    {
+      "number": 13,
+      "directory": "13",
+      "pair_id": "lie_013",
+      "source_group": 2,
+      "recording_family": "lie_20260912-135144",
+      "split": "validation",
+      "data_file": "13/data.h5",
+      "contact_link": "unknown",
+      "limb": "left_leg",
+      "valid_force_frames": 0,
+      "frames": 300,
+      "data_sha256": "536f0834aacf4bfc6fd76fa1ca778142a8c55063ea6b4c52c60505674057b63a",
+      "bag_sha256": "b8955f6c58688dd2d669ae076c8550b87b63d010f4e308e394acf72d3ef016cc",
+      "videos_sha256": {
+        "camera_1.mp4": "352130122a7438ad554015dd496d1f07305af51b4e1a4d25bdd47c45c8016095",
+        "camera_2.mp4": "bc4b35bd4bceeea684b4d5609049021ef3101ce91d22f793687dd028841956d2"
+      },
+      "original_data_sha256": "be59df835ed437d7a3925102079b03cfda6562673c0f4b2814bc74f1eaf6a2bd"
+    },
+    {
+      "number": 14,
+      "directory": "14",
+      "pair_id": "lie_014",
+      "source_group": 2,
+      "recording_family": "lie_20260912-135144",
+      "split": "validation",
+      "data_file": "14/data.h5",
+      "contact_link": "unknown",
+      "limb": "right_leg",
+      "valid_force_frames": 0,
+      "frames": 300,
+      "data_sha256": "ec8ee0fbf8c1080b8bd7ba5cd1fdca43dbd2ea692bffb83fb98db8e2f09d3d8f",
+      "bag_sha256": "a9b4812a11497bb8fab366e18fde62636ec51642a09bdd12460442e1bc5bb8ef",
+      "videos_sha256": {
+        "camera_1.mp4": "0f61c5e8eb69cecbc6ccbb27f2fba43c7eb5ac9fb179a16654c58e6430584844",
+        "camera_2.mp4": "a9bc6b6026830f86f00979fa7bc7f9eac11ecb803a58471a4e989046cfc865f2"
+      },
+      "original_data_sha256": "191d172a9da1654b199df242bd24930bed3fc3cad4480d2366986464350c5e9d"
+    },
+    {
+      "number": 15,
+      "directory": "15",
+      "pair_id": "lie_015",
+      "source_group": 2,
+      "recording_family": "lie_20260912-135144",
+      "split": "validation",
+      "data_file": "15/data.h5",
+      "contact_link": "unknown",
+      "limb": "right_leg",
+      "valid_force_frames": 0,
+      "frames": 300,
+      "data_sha256": "67df0bf2d669e1c76d795df2ba1e4af676b8d97bdd3d3d91704db7de4c021c8a",
+      "bag_sha256": "2d54c1e9b1f00051a68d61e8b1e1b427048e6cf248ce434cbea8e39863414f7e",
+      "videos_sha256": {
+        "camera_1.mp4": "cb74ccca78c0fec719419103f1fe15b5fb8c708e672b27f115ceaf5f30ba8112",
+        "camera_2.mp4": "24419a96d94279267199854c651728ba42597bc0c4e2dcb7984595b6c278b8d2"
+      },
+      "original_data_sha256": "877ce02f34928c7ff08b713db57156caad706266efd5b186fbbdd1858b468e22"
+    }
+  ],
+  "pair_count": 8,
+  "metadata_revision": "english_source_metadata",
+  "metadata_note": "Machine-local source bag paths removed. Original H5 checksums are retained per recording; signal arrays are unchanged. This subset preserves all current browsing indices and original_number provenance; numbering gaps are intentional.",
+  "video_processing": {
+    "operation": "crop_top_banner_preserve_aspect_ratio",
+    "top_fraction": 0.024242424242424242,
+    "top_pixels": 16,
+    "description": "Top timestamp banner removed by a fixed height fraction, rounded to an even pixel count. Uniform scaling and a centered horizontal crop preserve the original resolution and aspect ratio. Frame count, frame rate and temporal alignment are unchanged."
+  },
+  "contact_timing_labels_available": false,
+  "previous_curation_revision": null,
+  "curation_revision": "compact_subset_20261006",
+  "numbering": "Original browsing indices preserved without renumbering; gaps are intentional.",
+  "subset": {
+    "created_utc": "2026-10-06T00:01:47.960744+00:00",
+    "original_pair_count": 30,
+    "kept_numbers": [
+      1,
+      2,
+      6,
+      7,
+      12,
+      13,
+      14,
+      15
+    ],
+    "indices_preserved": true,
+    "method": "user-specified current indices"
+  },
+  "excluded_pairs": [
+    {
+      "pair_id": "lie_003",
+      "number_at_removal": 3,
+      "original_number": 3,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "lie_004",
+      "number_at_removal": 4,
+      "original_number": 4,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "lie_005",
+      "number_at_removal": 5,
+      "original_number": 5,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "lie_008",
+      "number_at_removal": 8,
+      "original_number": 8,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "lie_009",
+      "number_at_removal": 9,
+      "original_number": 9,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "lie_010",
+      "number_at_removal": 10,
+      "original_number": 10,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "lie_011",
+      "number_at_removal": 11,
+      "original_number": 11,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "lie_016",
+      "number_at_removal": 16,
+      "original_number": 16,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "lie_017",
+      "number_at_removal": 17,
+      "original_number": 17,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "lie_018",
+      "number_at_removal": 18,
+      "original_number": 18,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "lie_019",
+      "number_at_removal": 19,
+      "original_number": 19,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "lie_020",
+      "number_at_removal": 20,
+      "original_number": 20,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "lie_021",
+      "number_at_removal": 21,
+      "original_number": 21,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "lie_022",
+      "number_at_removal": 22,
+      "original_number": 22,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "lie_023",
+      "number_at_removal": 23,
+      "original_number": 23,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "lie_024",
+      "number_at_removal": 24,
+      "original_number": 24,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "lie_025",
+      "number_at_removal": 25,
+      "original_number": 25,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "lie_026",
+      "number_at_removal": 26,
+      "original_number": 27,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "lie_027",
+      "number_at_removal": 27,
+      "original_number": 66,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "lie_028",
+      "number_at_removal": 28,
+      "original_number": 67,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "lie_029",
+      "number_at_removal": 29,
+      "original_number": 68,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "lie_030",
+      "number_at_removal": 30,
+      "original_number": 70,
+      "reason": "size_limit_subset_selection"
+    }
+  ]
+}

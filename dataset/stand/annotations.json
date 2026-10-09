@@ -1,0 +1,616 @@
+{
+  "schema_version": "1.1",
+  "observation_conventions_confirmed": false,
+  "notes": "Choose an exact target link and a unit direction: positive baseline-corrected sensor Fz -> force ON ROBOT in pelvis axes. Single-axis projection is a force-vector model, not a measured 3-axis force.",
+  "target_links": [
+    "pelvis",
+    "left_hip_pitch_link",
+    "left_hip_roll_link",
+    "left_hip_yaw_link",
+    "left_knee_link",
+    "left_ankle_pitch_link",
+    "left_ankle_roll_link",
+    "right_hip_pitch_link",
+    "right_hip_roll_link",
+    "right_hip_yaw_link",
+    "right_knee_link",
+    "right_ankle_pitch_link",
+    "right_ankle_roll_link",
+    "waist_yaw_link",
+    "waist_roll_link",
+    "torso_link",
+    "left_shoulder_pitch_link",
+    "left_shoulder_roll_link",
+    "left_shoulder_yaw_link",
+    "left_elbow_link",
+    "left_wrist_roll_link",
+    "left_wrist_pitch_link",
+    "left_wrist_yaw_link",
+    "right_shoulder_pitch_link",
+    "right_shoulder_roll_link",
+    "right_shoulder_yaw_link",
+    "right_elbow_link",
+    "right_wrist_roll_link",
+    "right_wrist_pitch_link",
+    "right_wrist_yaw_link"
+  ],
+  "groups": {
+    "1": {
+      "reviewed": true,
+      "surface_annotation": true,
+      "contact_link": "torso_link",
+      "contact_point_link_m": [
+        0.08270276759206989,
+        -0.003276567041341469,
+        0.1615420216422031
+      ],
+      "surface_normal_link": [
+        0.9723985670612532,
+        -0.009589113095359687,
+        -0.2331288821387558
+      ],
+      "geom_id": 35,
+      "face_index": 38308,
+      "barycentric": [
+        0.5613549525827984,
+        0.044687759341663344,
+        0.39395728807553815
+      ],
+      "direction_frame": "pelvis",
+      "direction_vector": [
+        -0.9996954135095479,
+        0.017449748351250412,
+        0.01745240643728351
+      ],
+      "sensor_polarity": -1,
+      "gain": 1.0,
+      "baseline_mode": "pre_event_median",
+      "reference_pair": "g01_pair_001",
+      "reference_frame": 60,
+      "model_sha256": "dbc2f73509fd97a1b5f193aa504e1e99c0853ac79319cc61b386c79b92c322db",
+      "annotated_at_utc": "2026-09-22T17:59:11.057800+00:00",
+      "note": "",
+      "force_axis_in_pelvis": [
+        0.9996954135095479,
+        -0.017449748351250412,
+        -0.01745240643728351
+      ]
+    },
+    "2": {
+      "reviewed": true,
+      "surface_annotation": true,
+      "contact_link": "torso_link",
+      "contact_point_link_m": [
+        -0.062229521107839685,
+        -0.0017013113330213024,
+        0.11781601800713606
+      ],
+      "surface_normal_link": [
+        -0.9978390779046235,
+        -0.001532653014939464,
+        -0.06568733196885536
+      ],
+      "geom_id": 35,
+      "face_index": 41978,
+      "barycentric": [
+        0.816097540154709,
+        0.11288009252041077,
+        0.07102236732488015
+      ],
+      "direction_frame": "pelvis",
+      "direction_vector": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "sensor_polarity": -1,
+      "gain": 1.0,
+      "baseline_mode": "pre_event_median",
+      "reference_pair": "g02_pair_001",
+      "reference_frame": 65,
+      "model_sha256": "dbc2f73509fd97a1b5f193aa504e1e99c0853ac79319cc61b386c79b92c322db",
+      "annotated_at_utc": "2026-09-22T17:59:38.716160+00:00",
+      "note": "",
+      "force_axis_in_pelvis": [
+        -1.0,
+        -0.0,
+        -0.0
+      ]
+    },
+    "3": {
+      "reviewed": true,
+      "surface_annotation": true,
+      "contact_link": "pelvis",
+      "contact_point_link_m": [
+        0.06092182438301438,
+        0.0007650988537734931,
+        -0.06571924569988513
+      ],
+      "surface_normal_link": [
+        0.996315877921191,
+        0.008170872785823667,
+        0.08536924645353548
+      ],
+      "geom_id": 1,
+      "face_index": 1724,
+      "barycentric": [
+        0.0901392274883287,
+        0.1921301037089539,
+        0.7177306688027174
+      ],
+      "direction_frame": "pelvis",
+      "direction_vector": [
+        -1.0,
+        -1.2246467991473532e-16,
+        0.0
+      ],
+      "sensor_polarity": -1,
+      "gain": 1.0,
+      "baseline_mode": "pre_event_median",
+      "reference_pair": "g03_pair_001",
+      "reference_frame": 62,
+      "model_sha256": "dbc2f73509fd97a1b5f193aa504e1e99c0853ac79319cc61b386c79b92c322db",
+      "annotated_at_utc": "2026-09-22T18:00:09.107438+00:00",
+      "note": "",
+      "force_axis_in_pelvis": [
+        1.0,
+        1.2246467991473532e-16,
+        -0.0
+      ]
+    },
+    "4": {
+      "reviewed": true,
+      "surface_annotation": true,
+      "contact_link": "right_hip_roll_link",
+      "contact_point_link_m": [
+        0.07938229405939884,
+        0.0017373009617382676,
+        -0.10382798572363233
+      ],
+      "surface_normal_link": [
+        0.9990595233886197,
+        0.02767180478679493,
+        -0.033381730727233896
+      ],
+      "geom_id": 20,
+      "face_index": 1368,
+      "barycentric": [
+        0.14241279735732398,
+        0.010564158436156386,
+        0.8470230442065196
+      ],
+      "direction_frame": "pelvis",
+      "direction_vector": [
+        -0.9873286151472498,
+        -0.02830819399291171,
+        -0.15614368979972854
+      ],
+      "sensor_polarity": -1,
+      "gain": 1.0,
+      "baseline_mode": "pre_event_median",
+      "reference_pair": "g04_pair_001",
+      "reference_frame": 67,
+      "model_sha256": "dbc2f73509fd97a1b5f193aa504e1e99c0853ac79319cc61b386c79b92c322db",
+      "annotated_at_utc": "2026-09-22T18:00:37.831402+00:00",
+      "note": "",
+      "force_axis_in_pelvis": [
+        0.9873286151472498,
+        0.02830819399291171,
+        0.15614368979972854
+      ]
+    },
+    "5": {
+      "reviewed": true,
+      "surface_annotation": true,
+      "contact_link": "left_hip_roll_link",
+      "contact_point_link_m": [
+        0.07920109746018227,
+        0.006398986626949731,
+        -0.10442690814993746
+      ],
+      "surface_normal_link": [
+        0.9965023708296264,
+        0.028621659894512402,
+        -0.07851003449124391
+      ],
+      "geom_id": 5,
+      "face_index": 2178,
+      "barycentric": [
+        0.31339596869970415,
+        0.043903385981782485,
+        0.6427006453185133
+      ],
+      "direction_frame": "pelvis",
+      "direction_vector": [
+        -0.9847364050190722,
+        -0.02864344780362338,
+        -0.17167925188570374
+      ],
+      "sensor_polarity": -1,
+      "gain": 1.0,
+      "baseline_mode": "pre_event_median",
+      "reference_pair": "g05_pair_001",
+      "reference_frame": 67,
+      "model_sha256": "dbc2f73509fd97a1b5f193aa504e1e99c0853ac79319cc61b386c79b92c322db",
+      "annotated_at_utc": "2026-09-22T18:01:00.948019+00:00",
+      "note": "",
+      "force_axis_in_pelvis": [
+        0.9847364050190722,
+        0.02864344780362338,
+        0.17167925188570374
+      ]
+    },
+    "6": {
+      "reviewed": true,
+      "surface_annotation": true,
+      "contact_link": "right_shoulder_roll_link",
+      "contact_point_link_m": [
+        0.040953278970318134,
+        0.0039839875953467385,
+        -0.003644419270559874
+      ],
+      "surface_normal_link": [
+        0.9998974375212581,
+        0.010128639954873148,
+        -0.010125467450258985
+      ],
+      "geom_id": 60,
+      "face_index": 1389,
+      "barycentric": [
+        0.02788205986726966,
+        0.646326794138442,
+        0.3257911459942884
+      ],
+      "direction_frame": "pelvis",
+      "direction_vector": [
+        -0.9207062580844897,
+        0.12077118609410298,
+        0.37109878325518764
+      ],
+      "sensor_polarity": -1,
+      "gain": 1.0,
+      "baseline_mode": "pre_event_median",
+      "reference_pair": "g06_pair_001",
+      "reference_frame": 73,
+      "model_sha256": "dbc2f73509fd97a1b5f193aa504e1e99c0853ac79319cc61b386c79b92c322db",
+      "annotated_at_utc": "2026-09-22T18:01:16.327206+00:00",
+      "note": "",
+      "force_axis_in_pelvis": [
+        0.9207062580844897,
+        -0.12077118609410298,
+        -0.37109878325518764
+      ]
+    },
+    "7": {
+      "reviewed": true,
+      "surface_annotation": true,
+      "contact_link": "left_shoulder_roll_link",
+      "contact_point_link_m": [
+        0.04100612211528217,
+        -0.0016274945240105528,
+        -0.00027223923238904027
+      ],
+      "surface_normal_link": [
+        0.999897442312624,
+        -0.013833842159258711,
+        -0.003705356634059636
+      ],
+      "geom_id": 45,
+      "face_index": 1387,
+      "barycentric": [
+        0.2336127729518448,
+        0.008702142527793673,
+        0.7576850845203615
+      ],
+      "direction_frame": "pelvis",
+      "direction_vector": [
+        -0.9657607341633072,
+        -0.05742436352587586,
+        0.25299930201879656
+      ],
+      "sensor_polarity": -1,
+      "gain": 1.0,
+      "baseline_mode": "pre_event_median",
+      "reference_pair": "g07_pair_001",
+      "reference_frame": 73,
+      "model_sha256": "dbc2f73509fd97a1b5f193aa504e1e99c0853ac79319cc61b386c79b92c322db",
+      "annotated_at_utc": "2026-09-22T18:01:25.787982+00:00",
+      "note": "",
+      "force_axis_in_pelvis": [
+        0.9657607341633072,
+        0.05742436352587586,
+        -0.25299930201879656
+      ]
+    },
+    "8": {
+      "reviewed": true,
+      "surface_annotation": true,
+      "contact_link": "right_elbow_link",
+      "contact_point_link_m": [
+        0.05264351714015543,
+        0.0017170385990118412,
+        0.02451507308614833
+      ],
+      "surface_normal_link": [
+        -0.0002875805659409089,
+        -1.8613629846089813e-05,
+        0.9999999584754745
+      ],
+      "geom_id": 64,
+      "face_index": 123,
+      "barycentric": [
+        0.09456493278131661,
+        0.6609693809675934,
+        0.24446568625108997
+      ],
+      "direction_frame": "pelvis",
+      "direction_vector": [
+        -0.998927265777514,
+        -0.036472019539431653,
+        -0.028532603753868246
+      ],
+      "sensor_polarity": -1,
+      "gain": 1.0,
+      "baseline_mode": "pre_event_median",
+      "reference_pair": "g08_pair_001",
+      "reference_frame": 66,
+      "model_sha256": "dbc2f73509fd97a1b5f193aa504e1e99c0853ac79319cc61b386c79b92c322db",
+      "annotated_at_utc": "2026-09-27T20:32:31.850777+00:00",
+      "note": "",
+      "force_axis_in_pelvis": [
+        0.998927265777514,
+        0.036472019539431653,
+        0.028532603753868246
+      ]
+    },
+    "9": {
+      "reviewed": true,
+      "surface_annotation": true,
+      "contact_link": "left_elbow_link",
+      "contact_point_link_m": [
+        0.05954672716268733,
+        0.002301471307305173,
+        0.02451699498669701
+      ],
+      "surface_normal_link": [
+        -0.0002877328359869845,
+        -3.1852130026495654e-06,
+        0.9999999585998338
+      ],
+      "geom_id": 49,
+      "face_index": 127,
+      "barycentric": [
+        0.5330827882304203,
+        0.21784937212052077,
+        0.24906783964905893
+      ],
+      "direction_frame": "pelvis",
+      "direction_vector": [
+        -0.9925461516413221,
+        1.2155184676135686e-16,
+        -0.12186934340514749
+      ],
+      "sensor_polarity": -1,
+      "gain": 1.0,
+      "baseline_mode": "pre_event_median",
+      "reference_pair": "g09_pair_001",
+      "reference_frame": 66,
+      "model_sha256": "dbc2f73509fd97a1b5f193aa504e1e99c0853ac79319cc61b386c79b92c322db",
+      "annotated_at_utc": "2026-09-27T20:33:28.698107+00:00",
+      "note": "",
+      "force_axis_in_pelvis": [
+        0.9925461516413221,
+        -1.2155184676135686e-16,
+        0.12186934340514749
+      ]
+    },
+    "10": {
+      "reviewed": true,
+      "surface_annotation": true,
+      "contact_link": "right_wrist_yaw_link",
+      "contact_point_link_m": [
+        0.0013421908625501134,
+        0.001590505898980338,
+        0.029930997637942422
+      ],
+      "surface_normal_link": [
+        -0.006291354448001099,
+        0.04002723555241435,
+        0.9991787824374779
+      ],
+      "geom_id": 70,
+      "face_index": 419,
+      "barycentric": [
+        0.2764426284047888,
+        0.32258442580222363,
+        0.4009729457929876
+      ],
+      "direction_frame": "pelvis",
+      "direction_vector": [
+        -0.9788433508680057,
+        -0.20459874942850909,
+        0.002246373473970321
+      ],
+      "sensor_polarity": -1,
+      "gain": 1.0,
+      "baseline_mode": "pre_event_median",
+      "reference_pair": "g10_pair_001",
+      "reference_frame": 61,
+      "model_sha256": "dbc2f73509fd97a1b5f193aa504e1e99c0853ac79319cc61b386c79b92c322db",
+      "annotated_at_utc": "2026-09-22T18:01:57.262529+00:00",
+      "note": "",
+      "force_axis_in_pelvis": [
+        0.9788433508680057,
+        0.20459874942850909,
+        -0.002246373473970321
+      ]
+    },
+    "11": {
+      "reviewed": true,
+      "surface_annotation": true,
+      "contact_link": "left_wrist_yaw_link",
+      "contact_point_link_m": [
+        0.0035175065749136272,
+        0.0018495458606710654,
+        0.02993594427022189
+      ],
+      "surface_normal_link": [
+        -0.003108770159701341,
+        0.06458294249241132,
+        0.9979075002659896
+      ],
+      "geom_id": 55,
+      "face_index": 6092,
+      "barycentric": [
+        0.22447027823851784,
+        0.5907494236527228,
+        0.18478029810875946
+      ],
+      "direction_frame": "pelvis",
+      "direction_vector": [
+        -0.9356123293636815,
+        0.20998417242029982,
+        -0.28378903515750514
+      ],
+      "sensor_polarity": -1,
+      "gain": 1.0,
+      "baseline_mode": "pre_event_median",
+      "reference_pair": "g11_pair_001",
+      "reference_frame": 64,
+      "model_sha256": "dbc2f73509fd97a1b5f193aa504e1e99c0853ac79319cc61b386c79b92c322db",
+      "annotated_at_utc": "2026-09-22T18:02:03.483545+00:00",
+      "note": "",
+      "force_axis_in_pelvis": [
+        0.9356123293636815,
+        -0.20998417242029982,
+        0.28378903515750514
+      ]
+    },
+    "13": {
+      "reviewed": true,
+      "surface_annotation": true,
+      "contact_link": "right_shoulder_pitch_link",
+      "contact_point_link_m": [
+        0.00141602534470394,
+        -0.07366709086543181,
+        -0.006567200468188167
+      ],
+      "surface_normal_link": [
+        -0.007669338750811678,
+        -0.9813936087856159,
+        0.19185350108317234
+      ],
+      "geom_id": 58,
+      "face_index": 2619,
+      "barycentric": [
+        0.5578745758707276,
+        0.19032413653883049,
+        0.2518012875904419
+      ],
+      "direction_frame": "pelvis",
+      "direction_vector": [
+        -0.06670844760071767,
+        0.9539752456412186,
+        -0.2923717047227368
+      ],
+      "sensor_polarity": -1,
+      "gain": 1.0,
+      "baseline_mode": "pre_event_median",
+      "reference_pair": "g13_pair_001",
+      "reference_frame": 67,
+      "model_sha256": "dbc2f73509fd97a1b5f193aa504e1e99c0853ac79319cc61b386c79b92c322db",
+      "annotated_at_utc": "2026-09-22T18:02:36.708132+00:00",
+      "note": "",
+      "force_axis_in_pelvis": [
+        0.06670844760071767,
+        -0.9539752456412186,
+        0.2923717047227368
+      ]
+    },
+    "14": {
+      "reviewed": true,
+      "surface_annotation": true,
+      "contact_link": "left_shoulder_pitch_link",
+      "contact_point_link_m": [
+        -0.0004841192118417775,
+        0.07413335453908562,
+        -0.009028253229333403
+      ],
+      "surface_normal_link": [
+        -0.007669708656036387,
+        0.981393548889272,
+        0.19185379268508454
+      ],
+      "geom_id": 43,
+      "face_index": 2608,
+      "barycentric": [
+        0.6094372268455341,
+        0.3427856867997213,
+        0.04777708635474457
+      ],
+      "direction_frame": "pelvis",
+      "direction_vector": [
+        -0.05078135467309597,
+        -0.9689659697053497,
+        -0.24192189559966773
+      ],
+      "sensor_polarity": -1,
+      "gain": 1.0,
+      "baseline_mode": "pre_event_median",
+      "reference_pair": "g14_pair_001",
+      "reference_frame": 69,
+      "model_sha256": "dbc2f73509fd97a1b5f193aa504e1e99c0853ac79319cc61b386c79b92c322db",
+      "annotated_at_utc": "2026-09-22T18:02:54.437993+00:00",
+      "note": "",
+      "force_axis_in_pelvis": [
+        0.05078135467309597,
+        0.9689659697053497,
+        0.24192189559966773
+      ]
+    },
+    "15": {
+      "reviewed": true,
+      "surface_annotation": true,
+      "contact_link": "pelvis",
+      "contact_point_link_m": [
+        -0.05806576497798121,
+        -0.0012882010738134392,
+        -0.08079878896343742
+      ],
+      "surface_normal_link": [
+        -0.9997716594322714,
+        -0.006533347745080542,
+        -0.020345622705729694
+      ],
+      "geom_id": 1,
+      "face_index": 27088,
+      "barycentric": [
+        0.49981044114529427,
+        0.13361640086862528,
+        0.3665731579860804
+      ],
+      "direction_frame": "pelvis",
+      "direction_vector": [
+        0.99977166128512,
+        0.006533272329397507,
+        0.0203455558749713
+      ],
+      "sensor_polarity": -1,
+      "gain": 1.0,
+      "baseline_mode": "pre_event_median",
+      "reference_pair": "g15_pair_001",
+      "reference_frame": 65,
+      "model_sha256": "dbc2f73509fd97a1b5f193aa504e1e99c0853ac79319cc61b386c79b92c322db",
+      "annotated_at_utc": "2026-09-22T18:03:30.694686+00:00",
+      "note": "",
+      "force_axis_in_pelvis": [
+        -0.99977166128512,
+        -0.006533272329397507,
+        -0.0203455558749713
+      ]
+    }
+  },
+  "pairs": {},
+  "revision": 17,
+  "updated_at_utc": "2026-09-27T20:33:28.698107+00:00"
+}

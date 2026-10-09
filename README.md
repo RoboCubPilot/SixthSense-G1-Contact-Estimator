@@ -1,6 +1,6 @@
 # Sixthsense
 
-**Sixthsense enables robots to sense external forces and torques across their entire body and across tasks using proprioception alone.** This anonymous review package includes an ONNX model, a browser replay viewer, and MuJoCo simulation for standing, walking, lying, and TWIST2 motion tracking.
+**Sixthsense enables robots to sense external forces and torques across their entire body and across tasks using proprioception alone.** This anonymous review package includes an ONNX model, recorded robot data, a browser replay viewer, and MuJoCo simulation for standing, walking, lying, and TWIST2 motion tracking.
 
 ## 1. Installation
 
@@ -12,7 +12,7 @@ python -m pip install -r requirements.txt
 
 ## 2. Recorded Robot Replay
 
-Recorded robot data and real-camera demonstrations are distributed separately for review. They are excluded from this code repository because camera footage and recording metadata can identify people or the recording location. Author-linked external URLs are withheld. To use the replay commands below, place the separately supplied scenario folders under `dataset/stand`, `dataset/walk`, and `dataset/lie`, including each scenario's `manifest.json`. Simulation commands use the bundled models and assets.
+This supplementary package includes a compact dataset subset with 43 recordings across standing, walking, and lying, including HDF5 signals and paired camera videos. Personal source paths are removed from metadata; numerical signals and video files are preserved. The complete dataset is distributed separately during review; author-linked external URLs are withheld.
 
 ### 2.1 Standing
 

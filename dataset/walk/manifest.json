@@ -1,0 +1,362 @@
+{
+  "schema": "g1_numbered_pairs/2.0",
+  "scenario": "walk",
+  "force_labels_available": false,
+  "pairs": [
+    {
+      "number": 1,
+      "directory": "1",
+      "pair_id": "walk_002",
+      "source_group": 1,
+      "recording_family": "walk_20260912-162203",
+      "split": "train",
+      "data_file": "1/data.h5",
+      "contact_link": "unknown",
+      "limb": "torso",
+      "valid_force_frames": 0,
+      "frames": 300,
+      "data_sha256": "d4d976c727f876a008cf95b7b75ab48ff2816605d8c2e0f645af46b56f4dd0c2",
+      "bag_sha256": "64cacc1b4cba992402d343b8411e1cd79022afebe92b9b4251606708cc2cbfb4",
+      "videos_sha256": {
+        "camera_1.mp4": "b0a185a52904353ba85c8fc9a9215ef10929ae30afdf6044944b61434181f93d",
+        "camera_2.mp4": "f6e7c4cdbd765ade69b5438aa0562dd1e6cc80e5f3eadb39bde073f21a68a393"
+      },
+      "original_number": 2
+    },
+    {
+      "number": 2,
+      "directory": "2",
+      "pair_id": "walk_006",
+      "source_group": 1,
+      "recording_family": "walk_20260912-162203",
+      "split": "train",
+      "data_file": "2/data.h5",
+      "contact_link": "unknown",
+      "limb": "torso",
+      "valid_force_frames": 0,
+      "frames": 300,
+      "data_sha256": "23a776c1e4faf1779e3abdd19dadee7abf67da7cc0d1f545850e859d2e881b92",
+      "bag_sha256": "6f688a727b1003ed86adf4ce70239462b6ea0140b95d2b395fa9e7ff3752681c",
+      "videos_sha256": {
+        "camera_1.mp4": "b7f3acd7327f22b562df59b1aa3bc759730e4f0b267246ef58f2ef2ac7ef802d",
+        "camera_2.mp4": "f3c9ae45823fa3ac1da260ec171903352586458ffec471fc105ea82058aa0f4a"
+      },
+      "original_number": 6
+    },
+    {
+      "number": 9,
+      "directory": "9",
+      "pair_id": "walk_014",
+      "source_group": 1,
+      "recording_family": "walk_20260912-162203",
+      "split": "train",
+      "data_file": "9/data.h5",
+      "contact_link": "unknown",
+      "limb": "torso",
+      "valid_force_frames": 0,
+      "frames": 300,
+      "data_sha256": "be023030fc667e6b0377409c35588b596cadf577dd468ace7f99df29bbfbb0a9",
+      "bag_sha256": "42bbfb69987ef2dc0310ce613c4dea1e8ffe1235c7f8977eccc7cf5f6865a12f",
+      "videos_sha256": {
+        "camera_1.mp4": "900dbedc14ff24df3deef2756d3cdc6d7febd6f921304b2a45b689f621f1cae0",
+        "camera_2.mp4": "59d4f76aa472ea06f078982a71818d4abaab8e60412e32a79a5fb73018122ef0"
+      },
+      "original_number": 14
+    },
+    {
+      "number": 13,
+      "directory": "13",
+      "pair_id": "walk_019",
+      "source_group": 2,
+      "recording_family": "walk_20260912-164327",
+      "split": "validation",
+      "data_file": "13/data.h5",
+      "contact_link": "unknown",
+      "limb": "torso",
+      "valid_force_frames": 0,
+      "frames": 300,
+      "data_sha256": "b0453e37f6d6e30fea9128cb40f9d896b464b24d9d458f39e70a81697a60e869",
+      "bag_sha256": "dffcfd69deb396b41ef24239ccd63492860a6363cfea76163fad2ac81d2ae543",
+      "videos_sha256": {
+        "camera_1.mp4": "be0df7f60ed8a81b3fc4251d3a44409b918a79953d52fb4ce6c62ae27eb2d953",
+        "camera_2.mp4": "a5202e924bbd743f2f76ddd1a626020c9c94bcb88b6847ef50a0fcdebe39aff2"
+      },
+      "original_number": 19
+    },
+    {
+      "number": 14,
+      "directory": "14",
+      "pair_id": "walk_020",
+      "source_group": 2,
+      "recording_family": "walk_20260912-164327",
+      "split": "validation",
+      "data_file": "14/data.h5",
+      "contact_link": "unknown",
+      "limb": "torso",
+      "valid_force_frames": 0,
+      "frames": 300,
+      "data_sha256": "5beb86487e0df9262ef35b2a362b7b057827b8ee0d91dd2dafbbe567cb829d58",
+      "bag_sha256": "c9af06a5a455d6f98cc4cb140286715cfc078e3ba98b98bb4630f75707d94052",
+      "videos_sha256": {
+        "camera_1.mp4": "ed229dd0947858ae0fcfc5c63c753c28cbc6964e00c4a8d4a747bfd6d449a4aa",
+        "camera_2.mp4": "70c26c1414b1e768f3b181e810c2a7dcf15a68d8002aacbce3945c70d14d24f5"
+      },
+      "original_number": 20
+    },
+    {
+      "number": 24,
+      "directory": "24",
+      "pair_id": "walk_031",
+      "source_group": 4,
+      "recording_family": "walk_20260912-194031",
+      "split": "test",
+      "data_file": "24/data.h5",
+      "contact_link": "unknown",
+      "limb": "torso",
+      "valid_force_frames": 0,
+      "frames": 300,
+      "data_sha256": "7da40cec2d83c593593fa36b2f088f94720770886dd23fe1675d9fcb33593196",
+      "bag_sha256": "341cbaa65999242e0b9984fe20471c2f0b5740a1be7e5903ba3cdc4fdb488055",
+      "videos_sha256": {
+        "camera_1.mp4": "bd0215bca86f40feda62c7c8202bc11b63191954ac152a53309a38b919011d61",
+        "camera_2.mp4": "2e275fe25f034b55ee1fad0aaae6a5fbb4ed59780b95753ecd565e7d9099ea9b"
+      },
+      "original_number": 31
+    },
+    {
+      "number": 25,
+      "directory": "25",
+      "pair_id": "walk_032",
+      "source_group": 4,
+      "recording_family": "walk_20260912-194031",
+      "split": "test",
+      "data_file": "25/data.h5",
+      "contact_link": "unknown",
+      "limb": "torso",
+      "valid_force_frames": 0,
+      "frames": 300,
+      "data_sha256": "017fcab002cb53e156d5044be93ac69d2b025014386dd5b05a876ccd76ab35d8",
+      "bag_sha256": "7b5a89aaf72b8fad9503c216720775f601ebca66875e919bd74436b2d7dda4e6",
+      "videos_sha256": {
+        "camera_1.mp4": "61932eb6b17cbbce7930c1c6590b331c41d52ff3a12167a3a215c5dbbc3622f6",
+        "camera_2.mp4": "bc75334af139e174079a0e8f6d88e0ab558f454bc41fb67b4e7213bf5f5bddb8"
+      },
+      "original_number": 32
+    }
+  ],
+  "pair_count": 7,
+  "excluded_pairs": [
+    {
+      "pair_id": "walk_003",
+      "original_number": 3,
+      "recording_family": "walk_20260912-162203",
+      "reason": "user_requested_removal"
+    },
+    {
+      "pair_id": "walk_004",
+      "original_number": 4,
+      "recording_family": "walk_20260912-162203",
+      "reason": "user_requested_removal"
+    },
+    {
+      "pair_id": "walk_005",
+      "original_number": 5,
+      "recording_family": "walk_20260912-162203",
+      "reason": "user_requested_removal"
+    },
+    {
+      "pair_id": "walk_008",
+      "original_number": 8,
+      "recording_family": "walk_20260912-162203",
+      "reason": "user_requested_removal"
+    },
+    {
+      "pair_id": "walk_017",
+      "original_number": 17,
+      "recording_family": "walk_20260912-164327",
+      "reason": "user_requested_removal"
+    },
+    {
+      "pair_id": "walk_030",
+      "original_number": 30,
+      "recording_family": "walk_20260912-170613",
+      "reason": "user_requested_removal"
+    },
+    {
+      "pair_id": "walk_038",
+      "original_number": 38,
+      "recording_family": "walk_20260912-194031",
+      "reason": "user_requested_removal"
+    },
+    {
+      "pair_id": "walk_001",
+      "original_number": 1,
+      "recording_family": "walk_20260912-162203",
+      "reason": "user_requested_removal"
+    },
+    {
+      "pair_id": "walk_007",
+      "number_at_removal": 3,
+      "original_number": 7,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "walk_009",
+      "number_at_removal": 4,
+      "original_number": 9,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "walk_010",
+      "number_at_removal": 5,
+      "original_number": 10,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "walk_011",
+      "number_at_removal": 6,
+      "original_number": 11,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "walk_012",
+      "number_at_removal": 7,
+      "original_number": 12,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "walk_013",
+      "number_at_removal": 8,
+      "original_number": 13,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "walk_015",
+      "number_at_removal": 10,
+      "original_number": 15,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "walk_016",
+      "number_at_removal": 11,
+      "original_number": 16,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "walk_018",
+      "number_at_removal": 12,
+      "original_number": 18,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "walk_021",
+      "number_at_removal": 15,
+      "original_number": 21,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "walk_022",
+      "number_at_removal": 16,
+      "original_number": 22,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "walk_023",
+      "number_at_removal": 17,
+      "original_number": 23,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "walk_024",
+      "number_at_removal": 18,
+      "original_number": 24,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "walk_025",
+      "number_at_removal": 19,
+      "original_number": 25,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "walk_026",
+      "number_at_removal": 20,
+      "original_number": 26,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "walk_027",
+      "number_at_removal": 21,
+      "original_number": 27,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "walk_028",
+      "number_at_removal": 22,
+      "original_number": 28,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "walk_029",
+      "number_at_removal": 23,
+      "original_number": 29,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "walk_033",
+      "number_at_removal": 26,
+      "original_number": 33,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "walk_034",
+      "number_at_removal": 27,
+      "original_number": 34,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "walk_035",
+      "number_at_removal": 28,
+      "original_number": 35,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "walk_036",
+      "number_at_removal": 29,
+      "original_number": 36,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "walk_037",
+      "number_at_removal": 30,
+      "original_number": 37,
+      "reason": "size_limit_subset_selection"
+    }
+  ],
+  "curation_revision": "compact_subset_20261006",
+  "original_curation_revision": "walk_prune_20260928",
+  "video_processing": {
+    "operation": "crop_top_banner_preserve_aspect_ratio",
+    "top_fraction": 0.024242424242424242,
+    "top_pixels": 16,
+    "description": "Top timestamp banner removed by a fixed height fraction, rounded to an even pixel count. Uniform scaling and a centered horizontal crop preserve the original resolution and aspect ratio. Frame count, frame rate and temporal alignment are unchanged."
+  },
+  "contact_timing_labels_available": false,
+  "previous_curation_revision": "walk_contiguous_indices_20261005",
+  "numbering": "Original browsing indices preserved without renumbering; gaps are intentional.",
+  "subset": {
+    "created_utc": "2026-10-06T00:01:47.960744+00:00",
+    "original_pair_count": 30,
+    "kept_numbers": [
+      1,
+      2,
+      9,
+      13,
+      14,
+      24,
+      25
+    ],
+    "indices_preserved": true,
+    "method": "user-specified current indices"
+  }
+}

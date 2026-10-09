@@ -1,0 +1,2408 @@
+{
+  "schema": "g1_numbered_pairs/1.0",
+  "created_at_utc": "2026-09-24T17:14:39.809633+00:00",
+  "source_hdf5_sha256": "16d5d45ac7cf7b1b3f32aa33d32c191a85b6612dce9c4f17b539d3e67fde3387",
+  "annotation_revision": 17,
+  "model_sha256": "dbc2f73509fd97a1b5f193aa504e1e99c0853ac79319cc61b386c79b92c322db",
+  "numbering": "Original browsing indices preserved without renumbering; gaps are intentional.",
+  "pairs": [
+    {
+      "number": 1,
+      "directory": "1",
+      "pair_id": "g01_pair_001",
+      "source_row": 0,
+      "source_group": 1,
+      "recording_family": "groups_01",
+      "data_file": "1/data.h5",
+      "contact_link": "torso_link",
+      "valid_force_frames": 148,
+      "frames": 150,
+      "data_sha256": "e4b89e47097bfc07b2f8cdb320af276210d3c453d40fe6d5333e39fa4c2cbeba",
+      "videos_sha256": {
+        "camera_1.mp4": "9e5b79f761ba6c0529243d6352fd46b0556a55002db9cd7fc60f204224f95b3c",
+        "camera_2.mp4": "170f026592490c71bcfc470f099d83c84ae2097f00baa8d607d061e9596ea9e1"
+      },
+      "original_number": 1,
+      "original_data_sha256": "74ef5e47f66c7f36e21c8bb52cf48fc95077d373bc11df1528ba24dfd7a1c399"
+    },
+    {
+      "number": 4,
+      "directory": "4",
+      "pair_id": "g01_pair_004",
+      "source_row": 3,
+      "source_group": 1,
+      "recording_family": "groups_01",
+      "data_file": "4/data.h5",
+      "contact_link": "torso_link",
+      "valid_force_frames": 149,
+      "frames": 150,
+      "data_sha256": "aa17c16ebe8a75708ce35cc24530c5a5b4a335df04d4a92952292e4e5ca28305",
+      "videos_sha256": {
+        "camera_1.mp4": "5ceb0348043272925dbdd5df17fd7aefb96947a49fa31343503bc9ef6ef401cb",
+        "camera_2.mp4": "5cebfac3f8a67ac35ee9ea79f527ae050d6bd683b067ea64adfe64fe00ff35df"
+      },
+      "original_number": 4,
+      "original_data_sha256": "f4112520a7fde75485d57087b736ed39d189241f12b66b5641cb4618c5eafc44"
+    },
+    {
+      "number": 8,
+      "directory": "8",
+      "pair_id": "g02_pair_004",
+      "source_row": 7,
+      "source_group": 2,
+      "recording_family": "groups_02",
+      "data_file": "8/data.h5",
+      "contact_link": "torso_link",
+      "valid_force_frames": 147,
+      "frames": 150,
+      "data_sha256": "a4971e3f087fec3ad473b5142988c3a3b0a65b4924acbe6f5d6c59046375aa9e",
+      "videos_sha256": {
+        "camera_1.mp4": "1a5eb6086e6ce04fb6a57f63bc0d6d251ad096c6cd6c7976889315cd007a256d",
+        "camera_2.mp4": "ea345ac64912fbc01b728a108ca05d51a930a35773b47c43549a34ef12c9e035"
+      },
+      "original_number": 8,
+      "original_data_sha256": "8f7fcfa4a190ee3c184342f06cc25343fefa391ba5c39619f5778f23b372d1ee"
+    },
+    {
+      "number": 23,
+      "directory": "23",
+      "pair_id": "g02_pair_022",
+      "source_row": 25,
+      "source_group": 2,
+      "recording_family": "groups_02",
+      "data_file": "23/data.h5",
+      "contact_link": "torso_link",
+      "valid_force_frames": 149,
+      "frames": 150,
+      "data_sha256": "5285c92382b672f20516f9a05b77caa0c5e6191dee5dd1286ce37215111b2d60",
+      "videos_sha256": {
+        "camera_1.mp4": "e6184ae02ca638e7a8812cfdafe69c64bb9f20c1c6bb68c5b99ac8faa5fd08d3",
+        "camera_2.mp4": "d18b07bd7e8fd00faac53e90fc14b81ef093e9c36d787f5b475ac1b4999eb0bb"
+      },
+      "original_number": 26,
+      "original_data_sha256": "f07202622359087d865abb00c1a2b94d7b60d054424028dafb45015bdead138a"
+    },
+    {
+      "number": 33,
+      "directory": "33",
+      "pair_id": "g03_pair_004",
+      "source_row": 36,
+      "source_group": 3,
+      "recording_family": "groups_03",
+      "data_file": "33/data.h5",
+      "contact_link": "pelvis",
+      "valid_force_frames": 149,
+      "frames": 150,
+      "data_sha256": "17c82f38d768804e47c6b951ce53247a7abc192cec1e1a6e99417e7a7ed74183",
+      "videos_sha256": {
+        "camera_1.mp4": "be60cd3bfd9c970b90df0bd75cbb9697ed617427c9f65c8eace4474f5625f6a4",
+        "camera_2.mp4": "292fdbe6e11c96c77e689d97d768acba00807cbc3b9f0e29888d36eba95e34a6"
+      },
+      "original_number": 37,
+      "original_data_sha256": "545ec531561555ff154ff77a14fadc7d44365cbd0cbd1f00a9d4d0ea27d725a6"
+    },
+    {
+      "number": 50,
+      "directory": "50",
+      "pair_id": "g03_pair_022",
+      "source_row": 54,
+      "source_group": 3,
+      "recording_family": "groups_03",
+      "data_file": "50/data.h5",
+      "contact_link": "pelvis",
+      "valid_force_frames": 148,
+      "frames": 150,
+      "data_sha256": "d51882f854e6d15eb13d7639756a193283d05e870519d556f92c1d14bf005f36",
+      "videos_sha256": {
+        "camera_1.mp4": "b0b4c81cab6cd72d25ba9e290695dcaabe94fe344ed59c48de21aa9db8a2be54",
+        "camera_2.mp4": "3a33b9834a5529b54c3529a0831e4e22847ebe9e1a69c4221f1b8285ab48de54"
+      },
+      "original_number": 55,
+      "original_data_sha256": "321ef5fccb1c1494d7778f5feb8a0816fcab1a6049d6d3bb015b41c2fde6263d"
+    },
+    {
+      "number": 55,
+      "directory": "55",
+      "pair_id": "g15_pair_002",
+      "source_row": 320,
+      "source_group": 15,
+      "recording_family": "groups_15",
+      "data_file": "55/data.h5",
+      "contact_link": "pelvis",
+      "valid_force_frames": 147,
+      "frames": 150,
+      "data_sha256": "6e07e62e4fcfc0b4baa0523f61fc049722c37b30ecf44a62f4b924adc597d3a0",
+      "videos_sha256": {
+        "camera_1.mp4": "c890443d603c887ee150eba0f4e595189dea586d96eb1cbe551eeb5fde64d1cc",
+        "camera_2.mp4": "e83c3e1645cf5ebf3e8afca9de820a156b2c443a76a91294fc25253c1ad4d8ab"
+      },
+      "original_number": 321,
+      "original_data_sha256": "9cec29274bc598bc46908cc29b5cee851e4ae1605e0a4b15da386e58571400fe"
+    },
+    {
+      "number": 58,
+      "directory": "58",
+      "pair_id": "g15_pair_005",
+      "source_row": 323,
+      "source_group": 15,
+      "recording_family": "groups_15",
+      "data_file": "58/data.h5",
+      "contact_link": "pelvis",
+      "valid_force_frames": 146,
+      "frames": 150,
+      "data_sha256": "7d809eb39dd8170dea09b18af8a66d2ac1ccb95bba19546488694389f1153e6c",
+      "videos_sha256": {
+        "camera_1.mp4": "fe968373e9e08d29ad75c965c93331220861f91e63654f4eab5ce76c92964130",
+        "camera_2.mp4": "5ec2f0d7a8ae6567e04d521b6258f93ff133ba4e83422d9de6ab144b26b379ff"
+      },
+      "original_number": 324,
+      "original_data_sha256": "26367ee59ac1a898c7d94f19c5c51d42f49fac73cd7429fe76a5f62d08125d30"
+    },
+    {
+      "number": 63,
+      "directory": "63",
+      "pair_id": "g04_pair_003",
+      "source_row": 60,
+      "source_group": 4,
+      "recording_family": "groups_04",
+      "data_file": "63/data.h5",
+      "contact_link": "right_hip_roll_link",
+      "valid_force_frames": 148,
+      "frames": 150,
+      "data_sha256": "3d7203406f365ad2cba647fa01016f14a68beb59fc48ab8e88aedefa32b0efcf",
+      "videos_sha256": {
+        "camera_1.mp4": "5f03bfaa050d445d081f0933685428252b707565cbb6668c22eddc444a189924",
+        "camera_2.mp4": "e9eca333395d3e163985a63e25e94230b38e6fc5e992671df7d9fe1d787fb96c"
+      },
+      "original_number": 61,
+      "original_data_sha256": "fa1fa403b6a31dc5fb1314741c992e6901ad34f43de916c243a7277ae97879dd"
+    },
+    {
+      "number": 70,
+      "directory": "70",
+      "pair_id": "g04_pair_010",
+      "source_row": 67,
+      "source_group": 4,
+      "recording_family": "groups_04",
+      "data_file": "70/data.h5",
+      "contact_link": "right_hip_roll_link",
+      "valid_force_frames": 147,
+      "frames": 150,
+      "data_sha256": "627371d652c0250c1cc386811e4cee30fab55c6cb44ba3c82127df164c40baad",
+      "videos_sha256": {
+        "camera_1.mp4": "bb84685e087d5fc21fabd6a025278947380602387df31e0c158128f0539d47fd",
+        "camera_2.mp4": "e065c588eb2b3b05b8da07461120cd46cb95bcab167fcc47bbe129abf6a16fb6"
+      },
+      "original_number": 68,
+      "original_data_sha256": "3c3d35ee984829a28cace16dde5cb4fceb65494d5730fe81d54ae751a9075c66"
+    },
+    {
+      "number": 108,
+      "directory": "108",
+      "pair_id": "g05_pair_016",
+      "source_row": 105,
+      "source_group": 5,
+      "recording_family": "groups_05",
+      "data_file": "108/data.h5",
+      "contact_link": "left_hip_roll_link",
+      "valid_force_frames": 149,
+      "frames": 150,
+      "data_sha256": "0910df8909a7b00ebe521b0d9680e88ba5234b7ec8e227e6dc29246f178fd818",
+      "videos_sha256": {
+        "camera_1.mp4": "7e7b7e3fcb8f26888444da0111dcddc7b8f1de2d746c6bd320893a24455d56ae",
+        "camera_2.mp4": "c1e6ebb4e0aa7aebbf75c379329aa6d9a491826019746c834755c15de7ede1fe"
+      },
+      "original_number": 106,
+      "original_data_sha256": "2d39052fef17b3edc5f46ab024de98632e327e350891337f030a7d53b6a8cff6"
+    },
+    {
+      "number": 121,
+      "directory": "121",
+      "pair_id": "g05_pair_029",
+      "source_row": 118,
+      "source_group": 5,
+      "recording_family": "groups_05",
+      "data_file": "121/data.h5",
+      "contact_link": "left_hip_roll_link",
+      "valid_force_frames": 148,
+      "frames": 150,
+      "data_sha256": "2087f1e472630fe8bb24f45ddbcadc1783edbf9e48c9f4c78a347f443186eac5",
+      "videos_sha256": {
+        "camera_1.mp4": "a5c9211928e0377454c0a7ded8068b2c5c92c4088016dd7bbd5a42c457c8f34a",
+        "camera_2.mp4": "f7c88e1723073c881a1d6e7bde302ed880dbe5a7129f6c540539e03ef0e24e5d"
+      },
+      "original_number": 119,
+      "original_data_sha256": "8c30c62a1b362d4f472e51de17e7f2ff761e8a8e7863bae67cc587915694cd09"
+    },
+    {
+      "number": 132,
+      "directory": "132",
+      "pair_id": "g06_pair_011",
+      "source_row": 129,
+      "source_group": 6,
+      "recording_family": "groups_06_07",
+      "data_file": "132/data.h5",
+      "contact_link": "right_shoulder_roll_link",
+      "valid_force_frames": 148,
+      "frames": 150,
+      "data_sha256": "f791929d84dce3f8e1d0930a09c02d90154f8f5ca506bcdc4f1d9d95bba08b22",
+      "videos_sha256": {
+        "camera_1.mp4": "e959655e39e96c149c9b8c61c3e1fdb473861f62a24f5a2fa424fc49d495442a",
+        "camera_2.mp4": "ff5fe18563cc52d63f069c34e014859e7e7f503d3d439d0b28f631069e2b55ad"
+      },
+      "original_number": 130,
+      "original_data_sha256": "9e391dc2761059bbf7694b4d6e79390d903d682aaaa50b5efe35c2dbc02217db"
+    },
+    {
+      "number": 149,
+      "directory": "149",
+      "pair_id": "g06_pair_028",
+      "source_row": 146,
+      "source_group": 6,
+      "recording_family": "groups_06_07",
+      "data_file": "149/data.h5",
+      "contact_link": "right_shoulder_roll_link",
+      "valid_force_frames": 149,
+      "frames": 150,
+      "data_sha256": "c54716e6ebb972498e4cd5211af6fa8f94757006d969bf3c66fb7e64c25ec682",
+      "videos_sha256": {
+        "camera_1.mp4": "b987fdf5e3c9dc73f930142226ef9365dc9ed43ce11e6ab5528a47312a68250b",
+        "camera_2.mp4": "f34a055faef56de6506c5d25b3cf5c06e169b7de38efe77e995ce62f13dd8074"
+      },
+      "original_number": 147,
+      "original_data_sha256": "37076cc4a4d5f680a9ba56fb90b9a61c72dceebc5bc7a1fd179bd4495dddf0d5"
+    },
+    {
+      "number": 163,
+      "directory": "163",
+      "pair_id": "g07_pair_012",
+      "source_row": 160,
+      "source_group": 7,
+      "recording_family": "groups_06_07",
+      "data_file": "163/data.h5",
+      "contact_link": "left_shoulder_roll_link",
+      "valid_force_frames": 149,
+      "frames": 150,
+      "data_sha256": "c0178c60382cf786335a1de5b8091bb9850c44de3a9f1e44b48936269988dcfb",
+      "videos_sha256": {
+        "camera_1.mp4": "ea180d7e514d592f63526b7fea57b349b78b4f1a17b8f74bf7e4698b92bb25c6",
+        "camera_2.mp4": "b7a9153da67a586cced5834ca0278bbb3b6c869b145c5e14b921a37b3561e4ae"
+      },
+      "original_number": 161,
+      "original_data_sha256": "8a8f71103d8dc43241e14ea117afba0e7e2309cb059e3a8bcc91344be7b851da"
+    },
+    {
+      "number": 172,
+      "directory": "172",
+      "pair_id": "g07_pair_021",
+      "source_row": 169,
+      "source_group": 7,
+      "recording_family": "groups_06_07",
+      "data_file": "172/data.h5",
+      "contact_link": "left_shoulder_roll_link",
+      "valid_force_frames": 149,
+      "frames": 150,
+      "data_sha256": "649d0fe9421179f958071c945b7bef0b70ce2d4e4a71a02d0c0b02f5a8e73ffa",
+      "videos_sha256": {
+        "camera_1.mp4": "325153f7c5ae086ebb51f63e3642ba8098952c996ac7b2b0ebf626c5edebd633",
+        "camera_2.mp4": "32e231f4017f5964a51314ed0bfb6f79daddcb10f2ab23adaea1d83230777a3e"
+      },
+      "original_number": 170,
+      "original_data_sha256": "487d01df6fa1fdc1d1084ff4a24806b4fec2df4c526246b9d97b05a1a560775f"
+    },
+    {
+      "number": 205,
+      "directory": "205",
+      "pair_id": "g08_pair_031",
+      "source_row": 202,
+      "source_group": 8,
+      "recording_family": "groups_08_09",
+      "data_file": "205/data.h5",
+      "contact_link": "right_elbow_link",
+      "valid_force_frames": 147,
+      "frames": 150,
+      "data_sha256": "9d53ea9e3b56b67b48640fb64adfd32eceb62e4e857919491d7e47bf922a4493",
+      "videos_sha256": {
+        "camera_1.mp4": "d52d0fa1d69b81403c84ad64633e30125bba1e2d6ec2c95c897ceeeb6cd7f08f",
+        "camera_2.mp4": "fde7de8b0b1bd4c2d8cd40784daa334225226e86c98a479309c9e0d509c0b3a6"
+      },
+      "original_number": 203,
+      "original_data_sha256": "15f8621bea3834d2c9e60287340f29fa93bd6e4c77c6f6eac7fcc55c55357f1f"
+    },
+    {
+      "number": 208,
+      "directory": "208",
+      "pair_id": "g08_pair_034",
+      "source_row": 205,
+      "source_group": 8,
+      "recording_family": "groups_08_09",
+      "data_file": "208/data.h5",
+      "contact_link": "right_elbow_link",
+      "valid_force_frames": 149,
+      "frames": 150,
+      "data_sha256": "866211348f33d7813d5aa010a18386d6e7fd5e96e85823e9a80a92679136b540",
+      "videos_sha256": {
+        "camera_1.mp4": "b45fd0e96f84c660e6432a8232b239824764527f817707532d0844fd899ad5f2",
+        "camera_2.mp4": "ce0abd4599c93433c96cca040ddb541647b902e2440d9652ee714d79649bb8fe"
+      },
+      "original_number": 206,
+      "original_data_sha256": "67df2699db2d94a890645eddb4980f3bc15eead9b23716909d3f996e5d9c4afd"
+    },
+    {
+      "number": 230,
+      "directory": "230",
+      "pair_id": "g09_pair_020",
+      "source_row": 229,
+      "source_group": 9,
+      "recording_family": "groups_08_09",
+      "data_file": "230/data.h5",
+      "contact_link": "left_elbow_link",
+      "valid_force_frames": 148,
+      "frames": 150,
+      "data_sha256": "db751b43edb68ab02a3e769c33e94ab1f3c0d075ddc388e61fc4ee06f5ac810a",
+      "videos_sha256": {
+        "camera_1.mp4": "3b72848f987db83596676aa7ae88fee065126b590cb3c9be5abe5c97e1e5b593",
+        "camera_2.mp4": "f3f01b9ed37e7de313751016dab2e7ec3b8550ba56627bd6cd8c7902eb0e5de8"
+      },
+      "original_number": 230,
+      "original_data_sha256": "6c80ab6c76349849e9b445002ba3b56f2c76e8b9c72c17e71b2514d31f8d4aa3"
+    },
+    {
+      "number": 231,
+      "directory": "231",
+      "pair_id": "g09_pair_021",
+      "source_row": 230,
+      "source_group": 9,
+      "recording_family": "groups_08_09",
+      "data_file": "231/data.h5",
+      "contact_link": "left_elbow_link",
+      "valid_force_frames": 148,
+      "frames": 150,
+      "data_sha256": "df543a002258a2eca16106fe8189a0949e4554ad08e65919320f942f82e91813",
+      "videos_sha256": {
+        "camera_1.mp4": "c537a6545bd39993af6bd4d0af80b8f109ba58f5b464251e779653a1fb9817af",
+        "camera_2.mp4": "813a285cd42a103dfe22fb19b06db234b79ddd4fca95cd2a4bee0c47a1ddbc33"
+      },
+      "original_number": 231,
+      "original_data_sha256": "c4a93eb954ab08e5c06ff87c9572f108e829e4d6147ec2a57919b0d163471705"
+    },
+    {
+      "number": 243,
+      "directory": "243",
+      "pair_id": "g10_pair_005",
+      "source_row": 242,
+      "source_group": 10,
+      "recording_family": "groups_10_11",
+      "data_file": "243/data.h5",
+      "contact_link": "right_wrist_yaw_link",
+      "valid_force_frames": 149,
+      "frames": 150,
+      "data_sha256": "cfafef23948b2701c818fdb6dd6b3d8b4e4d9184c3d115ffbad8eb893db7623a",
+      "videos_sha256": {
+        "camera_1.mp4": "9a12ab6ea30821196975379c8a730813b096a8b55a4b9b342ee4b73b47161cbd",
+        "camera_2.mp4": "166f26a564424bef9ecb189306c9c3eef260334bd0f897c5e7762ef95c6296a5"
+      },
+      "original_number": 243,
+      "original_data_sha256": "6505f42fa888b3ca96ae3640f3ab9c53b615f99af93bd47e9abaa49ff3206bb2"
+    },
+    {
+      "number": 257,
+      "directory": "257",
+      "pair_id": "g10_pair_024",
+      "source_row": 261,
+      "source_group": 10,
+      "recording_family": "groups_10_11",
+      "data_file": "257/data.h5",
+      "contact_link": "right_wrist_yaw_link",
+      "valid_force_frames": 147,
+      "frames": 150,
+      "data_sha256": "df5f9ba1b4685cd0bb26438ff8de32f3aa4af3c3138301cb1d294efd6192ef3f",
+      "videos_sha256": {
+        "camera_1.mp4": "ec30cab77fa7162e3991a829ec9faa7aa9bbccb4af1840e84a1e75d15024da7a",
+        "camera_2.mp4": "cea8bf82df5828a3aa5c3ef2036c659472cbc8f484d980f0e96d68e7dd8b6323"
+      },
+      "original_number": 262,
+      "original_data_sha256": "9e31bce53e4c95bc2fc716b5d9e115c299302b867a31cae2e21438a2a9e84b8e"
+    },
+    {
+      "number": 275,
+      "directory": "275",
+      "pair_id": "g11_pair_007",
+      "source_row": 279,
+      "source_group": 11,
+      "recording_family": "groups_10_11",
+      "data_file": "275/data.h5",
+      "contact_link": "left_wrist_yaw_link",
+      "valid_force_frames": 148,
+      "frames": 150,
+      "data_sha256": "724c6410a2faba94d0ddbf3b73ee179d760f5f0bc25a3af16905a98e4011894d",
+      "videos_sha256": {
+        "camera_1.mp4": "39d38308fffa32927cf58ba49d6d195863e2909ecc07b14651a3d07953afc5e2",
+        "camera_2.mp4": "ed80ec79db09815afaf0af4e80b6a3d7c604629a8eb6cf6b967b65b4dd4b035f"
+      },
+      "original_number": 280,
+      "original_data_sha256": "2fe780c8321067df0fe7e5287d247ba5b957927444e3ce4d07f50f3668d6712e"
+    },
+    {
+      "number": 282,
+      "directory": "282",
+      "pair_id": "g11_pair_014",
+      "source_row": 286,
+      "source_group": 11,
+      "recording_family": "groups_10_11",
+      "data_file": "282/data.h5",
+      "contact_link": "left_wrist_yaw_link",
+      "valid_force_frames": 147,
+      "frames": 150,
+      "data_sha256": "2782c8dc6ac7ccd336863d253db0eec4d5f43d3bbc341fdd0e5360e4cdc48326",
+      "videos_sha256": {
+        "camera_1.mp4": "8d78708c75cfa99890a0c46518e03b1711fc14d00e8390d5a59ccb0e1512620f",
+        "camera_2.mp4": "1187854bd29abd181aa2428dcff4387598d22bc23b39811aa4d8628331e796f8"
+      },
+      "original_number": 287,
+      "original_data_sha256": "a244338f377a942621780eb2e57668f750b5920799697638e8f751caa8c72c4f"
+    },
+    {
+      "number": 297,
+      "directory": "297",
+      "pair_id": "g13_pair_004",
+      "source_row": 301,
+      "source_group": 13,
+      "recording_family": "groups_13",
+      "data_file": "297/data.h5",
+      "contact_link": "right_shoulder_pitch_link",
+      "valid_force_frames": 147,
+      "frames": 150,
+      "data_sha256": "37ecc844e8b5a6fedd2d8e92506efe2b0bff5a1b9e348c4cab2c9efa50e94059",
+      "videos_sha256": {
+        "camera_1.mp4": "6ff59689f5c8057b4c0b4363ff85d09cdb850d96559226868045704c3a0bc996",
+        "camera_2.mp4": "e752c70db27f72b9d3207c2aeab97b003d350e42aa7eacdbf73197da7cad8004"
+      },
+      "original_number": 302,
+      "original_data_sha256": "78695b94911a0c56c179407af8461e1d3c1eaf0bcb68a60363caa01b1f634e9a"
+    },
+    {
+      "number": 304,
+      "directory": "304",
+      "pair_id": "g13_pair_011",
+      "source_row": 308,
+      "source_group": 13,
+      "recording_family": "groups_13",
+      "data_file": "304/data.h5",
+      "contact_link": "right_shoulder_pitch_link",
+      "valid_force_frames": 148,
+      "frames": 150,
+      "data_sha256": "1e0eb0b2defe47bf0d49a0ea9b9b184a36005bdd953aa622fdd3a07b9391f86e",
+      "videos_sha256": {
+        "camera_1.mp4": "31e5904abd81b2f65481202de67e437bdd628dd6bcb22d6cba08ac48d863ff72",
+        "camera_2.mp4": "c81bceafe42c7ac3a68bb1028ad5c94b64c54a6751cd5c566170e5ccccf3ff33"
+      },
+      "original_number": 309,
+      "original_data_sha256": "c8812fd50012dbc8f866c6859a7c621a6cbf6285c1a7509946ba61bd6c6f0bdf"
+    },
+    {
+      "number": 306,
+      "directory": "306",
+      "pair_id": "g14_pair_001",
+      "source_row": 311,
+      "source_group": 14,
+      "recording_family": "groups_14",
+      "data_file": "306/data.h5",
+      "contact_link": "left_shoulder_pitch_link",
+      "valid_force_frames": 148,
+      "frames": 150,
+      "data_sha256": "5cbd04bae1e0eb402a993299d869c4d94ff0aa03b83e51c4bdd9356a0190627a",
+      "videos_sha256": {
+        "camera_1.mp4": "6f19903b747513b1280c6869da6c3a9ac7a746f7ea71d788ce8edc4632d08451",
+        "camera_2.mp4": "00dea20facb40831d16fef554b593be737794b2af0cd74b69b55bfdd49f96f90"
+      },
+      "original_number": 312,
+      "original_data_sha256": "02caa7541882df96230f679ce7d990617b3d5ace8b89221a95c7bab2d4e5063a"
+    },
+    {
+      "number": 311,
+      "directory": "311",
+      "pair_id": "g14_pair_006",
+      "source_row": 316,
+      "source_group": 14,
+      "recording_family": "groups_14",
+      "data_file": "311/data.h5",
+      "contact_link": "left_shoulder_pitch_link",
+      "valid_force_frames": 149,
+      "frames": 150,
+      "data_sha256": "48c31e8b0fc58c6fb9c7a65eb46ac3435dae68865e557d0964b4676ce224b2fd",
+      "videos_sha256": {
+        "camera_1.mp4": "a78e0084a37f46053725c22da091fe92480b7f94049f5494e0cd27cd3c698929",
+        "camera_2.mp4": "9953ac81135d9dddb2535eb51673790fa5df0433fda72fa87de3d608049b513a"
+      },
+      "original_number": 317,
+      "original_data_sha256": "55009137a3cd9b5514b7800ecdae78c6086e84925ac877b64ab681f53b1f3f49"
+    }
+  ],
+  "pair_count": 28,
+  "scenario": "stand",
+  "video_calibrations": [
+    {
+      "revision": "g14_motion_20260928",
+      "numbers": [
+        306,
+        311
+      ],
+      "timing_status": "estimated_motion_aligned",
+      "original_numbers": [
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319
+      ]
+    },
+    {
+      "revision": "g15_motion_20260928",
+      "numbers": [
+        55,
+        58
+      ],
+      "timing_status": "estimated_motion_aligned",
+      "original_numbers": [
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327
+      ]
+    }
+  ],
+  "excluded_pairs": [
+    {
+      "pair_id": "g02_pair_008",
+      "reason": "user_requested_removal",
+      "original_number": 12
+    },
+    {
+      "pair_id": "g02_pair_009",
+      "reason": "user_requested_removal",
+      "original_number": 13
+    },
+    {
+      "pair_id": "g02_pair_014",
+      "reason": "user_requested_removal",
+      "original_number": 18
+    },
+    {
+      "pair_id": "g02_pair_029",
+      "reason": "user_requested_removal",
+      "original_number": 33
+    },
+    {
+      "pair_id": "g03_pair_019",
+      "reason": "user_requested_removal",
+      "original_number": 52
+    },
+    {
+      "pair_id": "g08_pair_037",
+      "reason": "user_requested_removal",
+      "original_number": 209
+    },
+    {
+      "pair_id": "g08_pair_038",
+      "reason": "user_requested_removal",
+      "original_number": 210
+    },
+    {
+      "pair_id": "g10_pair_019",
+      "reason": "user_requested_removal",
+      "original_number": 257
+    },
+    {
+      "pair_id": "g10_pair_020",
+      "reason": "user_requested_removal",
+      "original_number": 258
+    },
+    {
+      "pair_id": "g10_pair_021",
+      "reason": "user_requested_removal",
+      "original_number": 259
+    },
+    {
+      "pair_id": "g10_pair_022",
+      "reason": "user_requested_removal",
+      "original_number": 260
+    },
+    {
+      "pair_id": "g10_pair_023",
+      "reason": "user_requested_removal",
+      "original_number": 261
+    },
+    {
+      "pair_id": "g13_pair_013",
+      "reason": "user_requested_removal",
+      "original_number": 311
+    },
+    {
+      "pair_id": "g14_pair_008",
+      "reason": "user_requested_removal",
+      "original_number": 319
+    },
+    {
+      "pair_id": "g15_pair_008",
+      "reason": "user_requested_removal",
+      "original_number": 327
+    },
+    {
+      "pair_id": "g01_pair_002",
+      "number_at_removal": 2,
+      "original_number": 2,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g01_pair_003",
+      "number_at_removal": 3,
+      "original_number": 3,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g02_pair_001",
+      "number_at_removal": 5,
+      "original_number": 5,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g02_pair_002",
+      "number_at_removal": 6,
+      "original_number": 6,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g02_pair_003",
+      "number_at_removal": 7,
+      "original_number": 7,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g02_pair_005",
+      "number_at_removal": 9,
+      "original_number": 9,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g02_pair_006",
+      "number_at_removal": 10,
+      "original_number": 10,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g02_pair_007",
+      "number_at_removal": 11,
+      "original_number": 11,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g02_pair_010",
+      "number_at_removal": 12,
+      "original_number": 14,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g02_pair_011",
+      "number_at_removal": 13,
+      "original_number": 15,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g02_pair_012",
+      "number_at_removal": 14,
+      "original_number": 16,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g02_pair_013",
+      "number_at_removal": 15,
+      "original_number": 17,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g02_pair_015",
+      "number_at_removal": 16,
+      "original_number": 19,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g02_pair_016",
+      "number_at_removal": 17,
+      "original_number": 20,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g02_pair_017",
+      "number_at_removal": 18,
+      "original_number": 21,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g02_pair_018",
+      "number_at_removal": 19,
+      "original_number": 22,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g02_pair_019",
+      "number_at_removal": 20,
+      "original_number": 23,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g02_pair_020",
+      "number_at_removal": 21,
+      "original_number": 24,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g02_pair_021",
+      "number_at_removal": 22,
+      "original_number": 25,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g02_pair_023",
+      "number_at_removal": 24,
+      "original_number": 27,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g02_pair_024",
+      "number_at_removal": 25,
+      "original_number": 28,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g02_pair_025",
+      "number_at_removal": 26,
+      "original_number": 29,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g02_pair_026",
+      "number_at_removal": 27,
+      "original_number": 30,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g02_pair_027",
+      "number_at_removal": 28,
+      "original_number": 31,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g02_pair_028",
+      "number_at_removal": 29,
+      "original_number": 32,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g03_pair_001",
+      "number_at_removal": 30,
+      "original_number": 34,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g03_pair_002",
+      "number_at_removal": 31,
+      "original_number": 35,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g03_pair_003",
+      "number_at_removal": 32,
+      "original_number": 36,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g03_pair_005",
+      "number_at_removal": 34,
+      "original_number": 38,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g03_pair_006",
+      "number_at_removal": 35,
+      "original_number": 39,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g03_pair_007",
+      "number_at_removal": 36,
+      "original_number": 40,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g03_pair_008",
+      "number_at_removal": 37,
+      "original_number": 41,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g03_pair_009",
+      "number_at_removal": 38,
+      "original_number": 42,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g03_pair_010",
+      "number_at_removal": 39,
+      "original_number": 43,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g03_pair_011",
+      "number_at_removal": 40,
+      "original_number": 44,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g03_pair_012",
+      "number_at_removal": 41,
+      "original_number": 45,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g03_pair_013",
+      "number_at_removal": 42,
+      "original_number": 46,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g03_pair_014",
+      "number_at_removal": 43,
+      "original_number": 47,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g03_pair_015",
+      "number_at_removal": 44,
+      "original_number": 48,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g03_pair_016",
+      "number_at_removal": 45,
+      "original_number": 49,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g03_pair_017",
+      "number_at_removal": 46,
+      "original_number": 50,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g03_pair_018",
+      "number_at_removal": 47,
+      "original_number": 51,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g03_pair_020",
+      "number_at_removal": 48,
+      "original_number": 53,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g03_pair_021",
+      "number_at_removal": 49,
+      "original_number": 54,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g03_pair_023",
+      "number_at_removal": 51,
+      "original_number": 56,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g03_pair_024",
+      "number_at_removal": 52,
+      "original_number": 57,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g03_pair_025",
+      "number_at_removal": 53,
+      "original_number": 58,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g15_pair_001",
+      "number_at_removal": 54,
+      "original_number": 320,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g15_pair_003",
+      "number_at_removal": 56,
+      "original_number": 322,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g15_pair_004",
+      "number_at_removal": 57,
+      "original_number": 323,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g15_pair_006",
+      "number_at_removal": 59,
+      "original_number": 325,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g15_pair_007",
+      "number_at_removal": 60,
+      "original_number": 326,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_001",
+      "number_at_removal": 61,
+      "original_number": 59,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_002",
+      "number_at_removal": 62,
+      "original_number": 60,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_004",
+      "number_at_removal": 64,
+      "original_number": 62,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_005",
+      "number_at_removal": 65,
+      "original_number": 63,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_006",
+      "number_at_removal": 66,
+      "original_number": 64,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_007",
+      "number_at_removal": 67,
+      "original_number": 65,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_008",
+      "number_at_removal": 68,
+      "original_number": 66,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_009",
+      "number_at_removal": 69,
+      "original_number": 67,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_011",
+      "number_at_removal": 71,
+      "original_number": 69,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_012",
+      "number_at_removal": 72,
+      "original_number": 70,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_013",
+      "number_at_removal": 73,
+      "original_number": 71,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_014",
+      "number_at_removal": 74,
+      "original_number": 72,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_015",
+      "number_at_removal": 75,
+      "original_number": 73,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_016",
+      "number_at_removal": 76,
+      "original_number": 74,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_017",
+      "number_at_removal": 77,
+      "original_number": 75,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_018",
+      "number_at_removal": 78,
+      "original_number": 76,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_019",
+      "number_at_removal": 79,
+      "original_number": 77,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_020",
+      "number_at_removal": 80,
+      "original_number": 78,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_021",
+      "number_at_removal": 81,
+      "original_number": 79,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_022",
+      "number_at_removal": 82,
+      "original_number": 80,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_023",
+      "number_at_removal": 83,
+      "original_number": 81,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_024",
+      "number_at_removal": 84,
+      "original_number": 82,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_025",
+      "number_at_removal": 85,
+      "original_number": 83,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_026",
+      "number_at_removal": 86,
+      "original_number": 84,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_027",
+      "number_at_removal": 87,
+      "original_number": 85,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_028",
+      "number_at_removal": 88,
+      "original_number": 86,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_029",
+      "number_at_removal": 89,
+      "original_number": 87,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_030",
+      "number_at_removal": 90,
+      "original_number": 88,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_031",
+      "number_at_removal": 91,
+      "original_number": 89,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g04_pair_032",
+      "number_at_removal": 92,
+      "original_number": 90,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_001",
+      "number_at_removal": 93,
+      "original_number": 91,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_002",
+      "number_at_removal": 94,
+      "original_number": 92,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_003",
+      "number_at_removal": 95,
+      "original_number": 93,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_004",
+      "number_at_removal": 96,
+      "original_number": 94,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_005",
+      "number_at_removal": 97,
+      "original_number": 95,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_006",
+      "number_at_removal": 98,
+      "original_number": 96,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_007",
+      "number_at_removal": 99,
+      "original_number": 97,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_008",
+      "number_at_removal": 100,
+      "original_number": 98,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_009",
+      "number_at_removal": 101,
+      "original_number": 99,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_010",
+      "number_at_removal": 102,
+      "original_number": 100,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_011",
+      "number_at_removal": 103,
+      "original_number": 101,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_012",
+      "number_at_removal": 104,
+      "original_number": 102,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_013",
+      "number_at_removal": 105,
+      "original_number": 103,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_014",
+      "number_at_removal": 106,
+      "original_number": 104,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_015",
+      "number_at_removal": 107,
+      "original_number": 105,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_017",
+      "number_at_removal": 109,
+      "original_number": 107,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_018",
+      "number_at_removal": 110,
+      "original_number": 108,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_019",
+      "number_at_removal": 111,
+      "original_number": 109,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_020",
+      "number_at_removal": 112,
+      "original_number": 110,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_021",
+      "number_at_removal": 113,
+      "original_number": 111,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_022",
+      "number_at_removal": 114,
+      "original_number": 112,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_023",
+      "number_at_removal": 115,
+      "original_number": 113,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_024",
+      "number_at_removal": 116,
+      "original_number": 114,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_025",
+      "number_at_removal": 117,
+      "original_number": 115,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_026",
+      "number_at_removal": 118,
+      "original_number": 116,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_027",
+      "number_at_removal": 119,
+      "original_number": 117,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g05_pair_028",
+      "number_at_removal": 120,
+      "original_number": 118,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_001",
+      "number_at_removal": 122,
+      "original_number": 120,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_002",
+      "number_at_removal": 123,
+      "original_number": 121,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_003",
+      "number_at_removal": 124,
+      "original_number": 122,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_004",
+      "number_at_removal": 125,
+      "original_number": 123,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_005",
+      "number_at_removal": 126,
+      "original_number": 124,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_006",
+      "number_at_removal": 127,
+      "original_number": 125,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_007",
+      "number_at_removal": 128,
+      "original_number": 126,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_008",
+      "number_at_removal": 129,
+      "original_number": 127,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_009",
+      "number_at_removal": 130,
+      "original_number": 128,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_010",
+      "number_at_removal": 131,
+      "original_number": 129,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_012",
+      "number_at_removal": 133,
+      "original_number": 131,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_013",
+      "number_at_removal": 134,
+      "original_number": 132,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_014",
+      "number_at_removal": 135,
+      "original_number": 133,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_015",
+      "number_at_removal": 136,
+      "original_number": 134,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_016",
+      "number_at_removal": 137,
+      "original_number": 135,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_017",
+      "number_at_removal": 138,
+      "original_number": 136,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_018",
+      "number_at_removal": 139,
+      "original_number": 137,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_019",
+      "number_at_removal": 140,
+      "original_number": 138,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_020",
+      "number_at_removal": 141,
+      "original_number": 139,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_021",
+      "number_at_removal": 142,
+      "original_number": 140,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_022",
+      "number_at_removal": 143,
+      "original_number": 141,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_023",
+      "number_at_removal": 144,
+      "original_number": 142,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_024",
+      "number_at_removal": 145,
+      "original_number": 143,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_025",
+      "number_at_removal": 146,
+      "original_number": 144,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_026",
+      "number_at_removal": 147,
+      "original_number": 145,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_027",
+      "number_at_removal": 148,
+      "original_number": 146,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_029",
+      "number_at_removal": 150,
+      "original_number": 148,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g06_pair_030",
+      "number_at_removal": 151,
+      "original_number": 149,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g07_pair_001",
+      "number_at_removal": 152,
+      "original_number": 150,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g07_pair_002",
+      "number_at_removal": 153,
+      "original_number": 151,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g07_pair_003",
+      "number_at_removal": 154,
+      "original_number": 152,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g07_pair_004",
+      "number_at_removal": 155,
+      "original_number": 153,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g07_pair_005",
+      "number_at_removal": 156,
+      "original_number": 154,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g07_pair_006",
+      "number_at_removal": 157,
+      "original_number": 155,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g07_pair_007",
+      "number_at_removal": 158,
+      "original_number": 156,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g07_pair_008",
+      "number_at_removal": 159,
+      "original_number": 157,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g07_pair_009",
+      "number_at_removal": 160,
+      "original_number": 158,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g07_pair_010",
+      "number_at_removal": 161,
+      "original_number": 159,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g07_pair_011",
+      "number_at_removal": 162,
+      "original_number": 160,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g07_pair_013",
+      "number_at_removal": 164,
+      "original_number": 162,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g07_pair_014",
+      "number_at_removal": 165,
+      "original_number": 163,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g07_pair_015",
+      "number_at_removal": 166,
+      "original_number": 164,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g07_pair_016",
+      "number_at_removal": 167,
+      "original_number": 165,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g07_pair_017",
+      "number_at_removal": 168,
+      "original_number": 166,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g07_pair_018",
+      "number_at_removal": 169,
+      "original_number": 167,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g07_pair_019",
+      "number_at_removal": 170,
+      "original_number": 168,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g07_pair_020",
+      "number_at_removal": 171,
+      "original_number": 169,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g07_pair_022",
+      "number_at_removal": 173,
+      "original_number": 171,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g07_pair_023",
+      "number_at_removal": 174,
+      "original_number": 172,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_001",
+      "number_at_removal": 175,
+      "original_number": 173,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_002",
+      "number_at_removal": 176,
+      "original_number": 174,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_003",
+      "number_at_removal": 177,
+      "original_number": 175,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_004",
+      "number_at_removal": 178,
+      "original_number": 176,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_005",
+      "number_at_removal": 179,
+      "original_number": 177,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_006",
+      "number_at_removal": 180,
+      "original_number": 178,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_007",
+      "number_at_removal": 181,
+      "original_number": 179,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_008",
+      "number_at_removal": 182,
+      "original_number": 180,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_009",
+      "number_at_removal": 183,
+      "original_number": 181,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_010",
+      "number_at_removal": 184,
+      "original_number": 182,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_011",
+      "number_at_removal": 185,
+      "original_number": 183,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_012",
+      "number_at_removal": 186,
+      "original_number": 184,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_013",
+      "number_at_removal": 187,
+      "original_number": 185,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_014",
+      "number_at_removal": 188,
+      "original_number": 186,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_015",
+      "number_at_removal": 189,
+      "original_number": 187,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_016",
+      "number_at_removal": 190,
+      "original_number": 188,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_017",
+      "number_at_removal": 191,
+      "original_number": 189,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_018",
+      "number_at_removal": 192,
+      "original_number": 190,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_019",
+      "number_at_removal": 193,
+      "original_number": 191,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_020",
+      "number_at_removal": 194,
+      "original_number": 192,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_021",
+      "number_at_removal": 195,
+      "original_number": 193,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_022",
+      "number_at_removal": 196,
+      "original_number": 194,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_023",
+      "number_at_removal": 197,
+      "original_number": 195,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_024",
+      "number_at_removal": 198,
+      "original_number": 196,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_025",
+      "number_at_removal": 199,
+      "original_number": 197,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_026",
+      "number_at_removal": 200,
+      "original_number": 198,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_027",
+      "number_at_removal": 201,
+      "original_number": 199,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_028",
+      "number_at_removal": 202,
+      "original_number": 200,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_029",
+      "number_at_removal": 203,
+      "original_number": 201,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_030",
+      "number_at_removal": 204,
+      "original_number": 202,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_032",
+      "number_at_removal": 206,
+      "original_number": 204,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_033",
+      "number_at_removal": 207,
+      "original_number": 205,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_035",
+      "number_at_removal": 209,
+      "original_number": 207,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g08_pair_036",
+      "number_at_removal": 210,
+      "original_number": 208,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_001",
+      "number_at_removal": 211,
+      "original_number": 211,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_002",
+      "number_at_removal": 212,
+      "original_number": 212,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_003",
+      "number_at_removal": 213,
+      "original_number": 213,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_004",
+      "number_at_removal": 214,
+      "original_number": 214,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_005",
+      "number_at_removal": 215,
+      "original_number": 215,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_006",
+      "number_at_removal": 216,
+      "original_number": 216,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_007",
+      "number_at_removal": 217,
+      "original_number": 217,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_008",
+      "number_at_removal": 218,
+      "original_number": 218,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_009",
+      "number_at_removal": 219,
+      "original_number": 219,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_010",
+      "number_at_removal": 220,
+      "original_number": 220,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_011",
+      "number_at_removal": 221,
+      "original_number": 221,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_012",
+      "number_at_removal": 222,
+      "original_number": 222,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_013",
+      "number_at_removal": 223,
+      "original_number": 223,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_014",
+      "number_at_removal": 224,
+      "original_number": 224,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_015",
+      "number_at_removal": 225,
+      "original_number": 225,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_016",
+      "number_at_removal": 226,
+      "original_number": 226,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_017",
+      "number_at_removal": 227,
+      "original_number": 227,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_018",
+      "number_at_removal": 228,
+      "original_number": 228,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_019",
+      "number_at_removal": 229,
+      "original_number": 229,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_022",
+      "number_at_removal": 232,
+      "original_number": 232,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_023",
+      "number_at_removal": 233,
+      "original_number": 233,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_024",
+      "number_at_removal": 234,
+      "original_number": 234,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_025",
+      "number_at_removal": 235,
+      "original_number": 235,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_026",
+      "number_at_removal": 236,
+      "original_number": 236,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_027",
+      "number_at_removal": 237,
+      "original_number": 237,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g09_pair_028",
+      "number_at_removal": 238,
+      "original_number": 238,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_001",
+      "number_at_removal": 239,
+      "original_number": 239,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_002",
+      "number_at_removal": 240,
+      "original_number": 240,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_003",
+      "number_at_removal": 241,
+      "original_number": 241,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_004",
+      "number_at_removal": 242,
+      "original_number": 242,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_006",
+      "number_at_removal": 244,
+      "original_number": 244,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_007",
+      "number_at_removal": 245,
+      "original_number": 245,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_008",
+      "number_at_removal": 246,
+      "original_number": 246,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_009",
+      "number_at_removal": 247,
+      "original_number": 247,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_010",
+      "number_at_removal": 248,
+      "original_number": 248,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_011",
+      "number_at_removal": 249,
+      "original_number": 249,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_012",
+      "number_at_removal": 250,
+      "original_number": 250,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_013",
+      "number_at_removal": 251,
+      "original_number": 251,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_014",
+      "number_at_removal": 252,
+      "original_number": 252,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_015",
+      "number_at_removal": 253,
+      "original_number": 253,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_016",
+      "number_at_removal": 254,
+      "original_number": 254,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_017",
+      "number_at_removal": 255,
+      "original_number": 255,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_018",
+      "number_at_removal": 256,
+      "original_number": 256,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_025",
+      "number_at_removal": 258,
+      "original_number": 263,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_026",
+      "number_at_removal": 259,
+      "original_number": 264,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_027",
+      "number_at_removal": 260,
+      "original_number": 265,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_028",
+      "number_at_removal": 261,
+      "original_number": 266,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_029",
+      "number_at_removal": 262,
+      "original_number": 267,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_030",
+      "number_at_removal": 263,
+      "original_number": 268,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_031",
+      "number_at_removal": 264,
+      "original_number": 269,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_032",
+      "number_at_removal": 265,
+      "original_number": 270,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_033",
+      "number_at_removal": 266,
+      "original_number": 271,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_034",
+      "number_at_removal": 267,
+      "original_number": 272,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g10_pair_035",
+      "number_at_removal": 268,
+      "original_number": 273,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g11_pair_001",
+      "number_at_removal": 269,
+      "original_number": 274,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g11_pair_002",
+      "number_at_removal": 270,
+      "original_number": 275,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g11_pair_003",
+      "number_at_removal": 271,
+      "original_number": 276,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g11_pair_004",
+      "number_at_removal": 272,
+      "original_number": 277,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g11_pair_005",
+      "number_at_removal": 273,
+      "original_number": 278,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g11_pair_006",
+      "number_at_removal": 274,
+      "original_number": 279,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g11_pair_008",
+      "number_at_removal": 276,
+      "original_number": 281,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g11_pair_009",
+      "number_at_removal": 277,
+      "original_number": 282,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g11_pair_010",
+      "number_at_removal": 278,
+      "original_number": 283,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g11_pair_011",
+      "number_at_removal": 279,
+      "original_number": 284,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g11_pair_012",
+      "number_at_removal": 280,
+      "original_number": 285,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g11_pair_013",
+      "number_at_removal": 281,
+      "original_number": 286,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g11_pair_015",
+      "number_at_removal": 283,
+      "original_number": 288,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g11_pair_016",
+      "number_at_removal": 284,
+      "original_number": 289,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g11_pair_017",
+      "number_at_removal": 285,
+      "original_number": 290,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g11_pair_018",
+      "number_at_removal": 286,
+      "original_number": 291,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g11_pair_019",
+      "number_at_removal": 287,
+      "original_number": 292,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g11_pair_020",
+      "number_at_removal": 288,
+      "original_number": 293,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g11_pair_021",
+      "number_at_removal": 289,
+      "original_number": 294,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g11_pair_022",
+      "number_at_removal": 290,
+      "original_number": 295,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g11_pair_023",
+      "number_at_removal": 291,
+      "original_number": 296,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g11_pair_024",
+      "number_at_removal": 292,
+      "original_number": 297,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g11_pair_025",
+      "number_at_removal": 293,
+      "original_number": 298,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g13_pair_001",
+      "number_at_removal": 294,
+      "original_number": 299,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g13_pair_002",
+      "number_at_removal": 295,
+      "original_number": 300,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g13_pair_003",
+      "number_at_removal": 296,
+      "original_number": 301,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g13_pair_005",
+      "number_at_removal": 298,
+      "original_number": 303,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g13_pair_006",
+      "number_at_removal": 299,
+      "original_number": 304,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g13_pair_007",
+      "number_at_removal": 300,
+      "original_number": 305,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g13_pair_008",
+      "number_at_removal": 301,
+      "original_number": 306,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g13_pair_009",
+      "number_at_removal": 302,
+      "original_number": 307,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g13_pair_010",
+      "number_at_removal": 303,
+      "original_number": 308,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g13_pair_012",
+      "number_at_removal": 305,
+      "original_number": 310,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g14_pair_002",
+      "number_at_removal": 307,
+      "original_number": 313,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g14_pair_003",
+      "number_at_removal": 308,
+      "original_number": 314,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g14_pair_004",
+      "number_at_removal": 309,
+      "original_number": 315,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g14_pair_005",
+      "number_at_removal": 310,
+      "original_number": 316,
+      "reason": "size_limit_subset_selection"
+    },
+    {
+      "pair_id": "g14_pair_007",
+      "number_at_removal": 312,
+      "original_number": 318,
+      "reason": "size_limit_subset_selection"
+    }
+  ],
+  "curation_revision": "compact_subset_20261006",
+  "numbering_revision": "stand_grouped_by_link_20261006",
+  "video_processing": {
+    "operation": "crop_top_banner_preserve_aspect_ratio",
+    "top_fraction": 0.024242424242424242,
+    "top_pixels": 16,
+    "description": "Top timestamp banner removed by a fixed height fraction, rounded to an even pixel count. Uniform scaling and a centered horizontal crop preserve the original resolution and aspect ratio. Frame count, frame rate and temporal alignment are unchanged."
+  },
+  "previous_curation_revision": "stand_prune_20260928",
+  "subset": {
+    "created_utc": "2026-10-06T00:01:47.960744+00:00",
+    "original_pair_count": 312,
+    "kept_numbers": [
+      1,
+      4,
+      8,
+      23,
+      33,
+      50,
+      55,
+      58,
+      63,
+      70,
+      108,
+      121,
+      132,
+      149,
+      163,
+      172,
+      205,
+      208,
+      230,
+      231,
+      243,
+      257,
+      275,
+      282,
+      297,
+      304,
+      306,
+      311
+    ],
+    "indices_preserved": true,
+    "method": "two best per annotated link/direction"
+  }
+}
