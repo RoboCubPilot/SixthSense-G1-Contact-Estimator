@@ -20,6 +20,8 @@ This supplementary package includes a compact dataset subset with 43 recordings 
 python sixthsense.py real stand
 ```
 
+![Standing robot replay](assets/demos/sixthsense_real_stand.gif)
+
 
 ### 2.2 Walking
 
@@ -27,12 +29,16 @@ python sixthsense.py real stand
 python sixthsense.py real walk
 ```
 
+![Walking robot replay](assets/demos/sixthsense_real_walk.gif)
+
 
 ### 2.3 Lying
 
 ```sh
 python sixthsense.py real lie
 ```
+
+![Lying robot replay](assets/demos/sixthsense_real_lie.gif)
 
 
 ## 3. Simulation
