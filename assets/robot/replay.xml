@@ -1,0 +1,9 @@
+<mujoco model="G1 recorded pair replay">
+  <include file="g1_29dof.xml"/>
+  <compiler meshdir="meshes"/>
+  <visual><global offwidth="1280" offheight="960"/><headlight ambient="0.5 0.5 0.5" diffuse="0.7 0.7 0.7"/></visual>
+  <worldbody>
+    <light pos="0 -2 3" dir="0 0 -1" diffuse="0.7 0.7 0.7"/>
+    <geom name="replay_floor" type="plane" size="3 3 0.05" rgba="0.22 0.25 0.29 1" contype="0" conaffinity="0"/>
+  </worldbody>
+</mujoco>

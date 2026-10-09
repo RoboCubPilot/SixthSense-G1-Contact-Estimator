@@ -1,0 +1,30 @@
+{
+  "dances": [
+    {
+      "dance_id": 1,
+      "file": "motion_05.pkl",
+      "label": "Dance Disco 14s",
+      "duration_s": 13.966666666666667,
+      "reference_velocity": true,
+      "source_frame_start": 315,
+      "source_frame_end_exclusive": 735,
+      "conversion": "GMR bvh_lafan1 -> unitree_g1; xyzw quaternion; original 30 fps; continuous excerpt",
+      "sha256": "65fcd2ccd4258afe8e5e22917769b3336b610ea635d086361e3268c91df16bed",
+      "retarget_frame_start": 300,
+      "ik_warmup_iterations": 8
+    },
+    {
+      "dance_id": 2,
+      "file": "motion_04.pkl",
+      "label": "Dance Groove 13s",
+      "duration_s": 12.966666666666667,
+      "reference_velocity": false,
+      "source_frame_start": 180,
+      "source_frame_end_exclusive": 570,
+      "conversion": "GMR bvh_lafan1 -> unitree_g1; xyzw quaternion; original 30 fps; continuous excerpt",
+      "sha256": "ae34ce39529091e154ea270cfff58d413f60a7bf4b84aea36ecbfd4260315560",
+      "retarget_frame_start": 180,
+      "ik_warmup_iterations": 8
+    }
+  ]
+}

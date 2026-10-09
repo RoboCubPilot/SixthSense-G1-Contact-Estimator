@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sixthsense</title><link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header>
+  <div class="brand" aria-label="Sixthsense"><b>Sixth<span>sense</span></b></div>
+  <div class="pair-picker">
+    <div class="mode-picker">
+      <label for="scenario">G1 mode:</label>
+      <select id="scenario"><option value="stand">Stand</option><option value="walk">Walk</option><option value="lie">Lie</option></select>
+    </div>
+    <button id="previous" title="Previous sample (Page Up)" aria-label="Previous sample">‹</button>
+    <label class="sr-only" for="pair">Sample</label><select id="pair"><option>Loading samples…</option></select>
+    <button id="next" title="Next sample (Page Down)" aria-label="Next sample">›</button>
+    <span id="pairCount" class="muted"></span>
+  </div>
+</header>
+<main>
+  <section class="media-column" aria-label="Synchronized cameras and robot replay">
+    <section class="media-panel real-panel">
+      <div class="panel-head"><h2><span class="dot blue"></span>Camera Views</h2></div>
+      <div id="cameras" class="view-grid">
+        <figure><div class="camera-frame"><video id="camera1" muted playsinline preload="auto" aria-label="Camera 1 recording"></video></div><div id="cameraMissing1" class="camera-missing" hidden></div><figcaption>CAM 01 <span id="timing1">Loading</span></figcaption></figure>
+        <figure><div class="camera-frame"><video id="camera2" muted playsinline preload="auto" aria-label="Camera 2 recording"></video></div><div id="cameraMissing2" class="camera-missing" hidden></div><figcaption>CAM 02 <span id="timing2">Loading</span></figcaption></figure>
+      </div>
+    </section>
+    <section class="media-panel simulation-panel">
+      <div class="panel-head"><h2><span class="dot green"></span>MuJoCo Replay</h2>
+        <div id="wrenchControls" class="wrench-controls" hidden>
+          <label class="torque-toggle"><input id="showTorque" type="checkbox" checked>Show torque</label>
+        </div>
+        <div class="force-key"><span id="robotRealKey" class="reference-key" hidden>● Real</span><span class="prediction-key">● Estimate</span></div>
+      </div>
+      <div class="replay-meta"><span id="inferenceError" role="status" hidden></span></div>
+      <div id="wrenchReadout" class="wrench-readout" hidden>
+        <div id="realForceRow" class="wrench-item real-wrench"><span class="wrench-swatch"></span><span>Real force</span><span id="realForceValue">—</span></div>
+        <div id="realTorqueRow" class="wrench-item real-wrench"><span class="wrench-swatch torque-swatch"></span><span>Real torque</span><span id="realTorqueValue">—</span></div>
+        <div class="wrench-item estimated-wrench"><span class="wrench-swatch"></span><span>Estimate force</span><span id="estimatedForceValue">—</span></div>
+        <div class="wrench-item estimated-wrench"><span class="wrench-swatch torque-swatch"></span><span>Estimate torque</span><span id="estimatedTorqueValue">—</span></div>
+      </div>
+      <div class="robot-viewport">
+        <video id="robot" muted playsinline preload="auto" hidden aria-hidden="true"></video>
+        <div class="view-grid robot-views">
+          <figure><canvas id="robotFront" role="img" aria-label="Robot front view with contact forces and torques"></canvas><figcaption>FRONT VIEW</figcaption></figure>
+          <figure><canvas id="robotSide" role="img" aria-label="Robot side view with contact forces and torques"></canvas><figcaption>SIDE VIEW</figcaption></figure>
+        </div>
+        <div id="loading" role="status"><span class="spinner"></span><strong id="loadingText">Loading sample</strong><span id="loadingHint">Preparing the replay</span><button id="retry" hidden>Retry</button></div>
+      </div>
+    </section>
+  </section>
+  <aside class="plots" aria-label="Synchronized data plots">
+    <section class="plot-panel">
+      <div class="plot-heading"><div><h2><span class="dot orange"></span>Contact Wrench</h2><span id="wrenchPlotUnit" class="unit">N</span></div>
+        <select id="wrenchSignal" aria-label="External wrench signal"><option value="force">Force |F|</option><option value="torque">Torque |T|</option></select></div>
+      <div class="plot-meta"><span id="forceNow">—</span></div>
+      <div id="forceLegend" class="force-legend"><span class="prediction-key">● Estimate</span></div>
+      <div class="wrench-plot">
+        <canvas id="forcePlot" role="img" aria-label="Real and estimated force magnitude; click to seek"></canvas>
+        <div id="wrenchWaiting" role="status" hidden><span class="spinner" aria-hidden="true"></span><strong>Waiting</strong></div>
+      </div>
+      <div class="plot-foot"><span>Click the plot to seek</span></div>
+    </section>
+    <section class="plot-panel">
+      <div class="plot-heading"><div><h2 id="jointTitle">Joint Velocity</h2><span id="jointUnit" class="unit">rad/s</span></div>
+        <select id="joint" aria-label="Joint signal"><option value="q">Joint Angle</option><option value="qdot" selected>Joint Velocity</option><option value="tau">Joint Torque</option></select></div>
+      <div class="plot-meta"><span class="muted">Recorded</span></div>
+      <canvas id="jointPlot" role="img" aria-label="Joint signals; click to seek"></canvas>
+      <div class="plot-foot"><span id="jointHint">All 29 joints · Click the plot to seek</span></div>
+    </section>
+    <section class="plot-panel">
+      <div class="plot-heading"><div><h2>IMU</h2><span id="imuUnit" class="unit">rad/s</span></div>
+        <select id="imuMode" aria-label="IMU signal"><option value="gyro">Angular Velocity</option><option value="acc">Acceleration</option></select></div>
+      <div class="plot-meta"><span id="imuNow">—</span><span class="axis-legend"><b>X</b><b>Y</b><b>Z</b></span></div>
+      <canvas id="imuPlot" role="img" aria-label="IMU signals; click to seek"></canvas>
+      <div class="plot-foot"><span id="imuHint">Recorded IMU · xyz</span></div>
+    </section>
+  </aside>
+</main>
+<footer>
+  <div class="transport">
+    <button id="play" class="primary" disabled aria-label="Play or pause (Space)">▶ Play</button>
+    <div class="timeline"><input id="seek" type="range" min="0" max="149" value="50" step="1" aria-label="Replay frame"><div><span id="timeStart">−1.00 s</span><span>0.00 s</span><span id="timeEnd">+1.98 s</span></div></div>
+    <output id="clock">+0.000 s <small>50 / 149</small></output>
+  </div>
+  <div class="status-line"><span>Space Play / Pause · Page Up / Down Change sample</span></div>
+</footer>
+<script src="/app.js"></script>
+</body>
+</html>

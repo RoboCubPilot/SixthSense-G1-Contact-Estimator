@@ -1,0 +1,486 @@
+{
+  "schema": "sixthsense_stochastic_wrench_onnx/1",
+  "kind": "joint_link_origin_wrench_cfm_v1",
+  "checkpoint_sha256": "186a0b41678db865a264b1d7521b6a58a5a5df53815c875f76edeee7e8615ca0",
+  "model_sha256": "22b0676076103a3f1ef785e0b8b1030489c1d2cb12fc0a34645739996e6a35a0",
+  "step": 10000,
+  "correctness_updates": 0,
+  "baseline_sha256": "3ef0719649846530680a507e7d2d170eea089670dc2eda41325074b9cf899730",
+  "force_generator_frozen": false,
+  "joint_force_torque_generator": true,
+  "force_torque_coupling": "bidirectional",
+  "neighbor_augmentation": {
+    "schema": "domain_wrench_augmentation/1",
+    "domains": {
+      "simulation": {
+        "observation_noise_fraction": 0.05,
+        "wrench_augmentation": {
+          "maximum_distance_m": 0.2,
+          "joint_tolerance_Nm": 2.0,
+          "alternative_mass": 0.2,
+          "torque_bound_Nm": 8.0,
+          "graph": "direct parent/child",
+          "label_noise": "original wrench labels unchanged; bounded F/T noise only in alternative targets before moment transport",
+          "consistency": "same target and label perturbation across all windows of each record in a batch; all known frames checked",
+          "mixture": "paired original/alternative supervision masses 1-alternative_mass and alternative_mass; unpaired originals mass 1",
+          "interpretation": "approximate ambiguity hypotheses, not measured alternative ground truth",
+          "force_scale_fraction": 0.05,
+          "force_angle_degrees": 2.5,
+          "torque_scale_fraction": 0.05,
+          "torque_angle_degrees": 5.0,
+          "clean_original_labels": true,
+          "xml_sha256": "7b437ff80ae39c63ea41d5e07593287e34840c45423298cf78b386da860f2326",
+          "training_records": 20700,
+          "maximum_record_frames": 300
+        }
+      },
+      "real_stand": {
+        "observation_noise_fraction": 0.1,
+        "wrench_augmentation": {
+          "maximum_distance_m": 0.4,
+          "joint_tolerance_Nm": 4.0,
+          "alternative_mass": 0.4,
+          "torque_bound_Nm": 8.0,
+          "graph": "direct parent/child",
+          "label_noise": "original wrench labels unchanged; bounded F/T noise only in alternative targets before moment transport",
+          "consistency": "same target and label perturbation across all windows of each record in a batch; all known frames checked",
+          "mixture": "paired original/alternative supervision masses 1-alternative_mass and alternative_mass; unpaired originals mass 1",
+          "interpretation": "approximate ambiguity hypotheses, not measured alternative ground truth",
+          "force_scale_fraction": 0.1,
+          "force_angle_degrees": 5.0,
+          "torque_scale_fraction": 0.1,
+          "torque_angle_degrees": 10.0,
+          "clean_original_labels": true,
+          "xml_sha256": "7b437ff80ae39c63ea41d5e07593287e34840c45423298cf78b386da860f2326",
+          "training_records": 46,
+          "maximum_record_frames": 150
+        }
+      }
+    },
+    "training_records": 20746
+  },
+  "augmentation_start_step": 1,
+  "augmentation_domains": [
+    "simulation/stand",
+    "simulation/walk",
+    "simulation/lie",
+    "real/stand",
+    "simulation/tracking_01",
+    "simulation/tracking_02",
+    "simulation/tracking_03",
+    "simulation/tracking_04",
+    "simulation/tracking_05",
+    "simulation/tracking_06"
+  ],
+  "observation_shape": [
+    50,
+    96
+  ],
+  "noise_shape": [
+    50,
+    211
+  ],
+  "wrench_shape": [
+    50,
+    6,
+    30
+  ],
+  "simulation_imu_position_m": [
+    0.04525,
+    0.0,
+    -0.08339
+  ],
+  "tracking_training": {
+    "data": {
+      "split": 0,
+      "sources": [
+        {
+          "path": "anonymous-source",
+          "sha256": "37d42b4c4e9733f9b9c34bece7d8aedcd12758af91ca908ff5445fa72412c759"
+        },
+        {
+          "path": "anonymous-source",
+          "sha256": "00ccab0ac14ed9e750eda73daa36f2e25334fad779003a5d9192b8c000f14c6b"
+        },
+        {
+          "path": "anonymous-source",
+          "sha256": "33b1b84be795f4241607aaba6d2dc3405ff91b1c6867260a8bfb879e9a289929"
+        },
+        {
+          "path": "anonymous-source",
+          "sha256": "8ec34371c151e776f9ffe9c8ced4259977d741c1ba4f8e6694f180163bd0fe60"
+        },
+        {
+          "path": "anonymous-source",
+          "sha256": "950211e08e37f9a862fc2cc8d3c7bd68a8108e9c465a5c92c2a84af4e69037a6"
+        },
+        {
+          "path": "anonymous-source",
+          "sha256": "f05bec25b0be35959858c545ae718fed33d255a27c6e9332dd686de9ba3a5a57"
+        }
+      ],
+      "records": 7200,
+      "windows": 362495,
+      "positive_windows": 45826,
+      "quiet_windows": 316669,
+      "frame": "pelvis",
+      "moment_origin": "link body origin",
+      "manifest_sha256": "f4c7d2669518b158b37f1513ba30d190f4635dc9398d5664e1eba854801d3db5",
+      "motion_sampling": "uniform over six motions",
+      "window_sampling": "60% positive, importance corrected within motion"
+    },
+    "additional_batch_size": 32,
+    "augmentation": "same halved simulation settings",
+    "presence": "trained with tracking before freezing"
+  },
+  "noise_layout": "0:30 gates; 30:120 force; 120:210 torque; 210:211 presence",
+  "order": [
+    "Fx",
+    "Fy",
+    "Fz",
+    "Tx",
+    "Ty",
+    "Tz"
+  ],
+  "units": [
+    "N",
+    "N",
+    "N",
+    "Nm",
+    "Nm",
+    "Nm"
+  ],
+  "frame": "pelvis",
+  "moment_origin": "link body origin",
+  "ode_steps": 24,
+  "ode_solver": "midpoint_rk2",
+  "target_links": [
+    "pelvis",
+    "left_hip_pitch_link",
+    "left_hip_roll_link",
+    "left_hip_yaw_link",
+    "left_knee_link",
+    "left_ankle_pitch_link",
+    "left_ankle_roll_link",
+    "right_hip_pitch_link",
+    "right_hip_roll_link",
+    "right_hip_yaw_link",
+    "right_knee_link",
+    "right_ankle_pitch_link",
+    "right_ankle_roll_link",
+    "waist_yaw_link",
+    "waist_roll_link",
+    "torso_link",
+    "left_shoulder_pitch_link",
+    "left_shoulder_roll_link",
+    "left_shoulder_yaw_link",
+    "left_elbow_link",
+    "left_wrist_roll_link",
+    "left_wrist_pitch_link",
+    "left_wrist_yaw_link",
+    "right_shoulder_pitch_link",
+    "right_shoulder_roll_link",
+    "right_shoulder_yaw_link",
+    "right_elbow_link",
+    "right_wrist_roll_link",
+    "right_wrist_pitch_link",
+    "right_wrist_yaw_link"
+  ],
+  "contact_policy": "Jointly generated gate>=1, force>=5N and frozen scalar presence; torque state can affect generated force/gates",
+  "force_scale": 40.0,
+  "torque_scale": 4.0,
+  "sample_policy": "Independent standard Gaussian; keep the sampled wrench; no force/torque averaging or clipping",
+  "validation": {
+    "torch_onnx_parity": [
+      {
+        "batch": 1,
+        "discrete_identical": true,
+        "max_abs": {
+          "wrench": 8.58306884765625e-05,
+          "raw_wrench": 8.58306884765625e-05,
+          "force": 8.58306884765625e-05,
+          "torque": 5.245208740234375e-06,
+          "gate_score": 4.410743713378906e-06
+        }
+      },
+      {
+        "batch": 3,
+        "discrete_identical": true,
+        "max_abs": {
+          "wrench": 6.866455078125e-05,
+          "raw_wrench": 6.866455078125e-05,
+          "force": 6.866455078125e-05,
+          "torque": 8.106231689453125e-06,
+          "gate_score": 5.602836608886719e-06
+        }
+      },
+      {
+        "batch": 6,
+        "discrete_identical": true,
+        "max_abs": {
+          "wrench": 9.1552734375e-05,
+          "raw_wrench": 9.1552734375e-05,
+          "force": 9.1552734375e-05,
+          "torque": 1.049041748046875e-05,
+          "gate_score": 4.649162292480469e-06
+        }
+      }
+    ]
+  },
+  "model_config": {
+    "force_config": {
+      "width": 160,
+      "temporal_width": 192,
+      "heads": 4,
+      "layers": 4,
+      "steps": 24,
+      "endpoint_sigma": 0.02,
+      "force_scale": 40.0,
+      "minimum_force_N": 5.0,
+      "gate_threshold": 1.0,
+      "reference_encoders": true,
+      "reference_evidence_config": {
+        "width": 160,
+        "steps": 4,
+        "noise": 0.1,
+        "minimum_force_N": 6.0,
+        "conditional_source": true,
+        "summary_mode": "class",
+        "cardinality_width": 64,
+        "count_offset": 0.25,
+        "force_decision_gain": 0.1,
+        "classifier_decision_gain": 0.25,
+        "preserved_count": true,
+        "preserved_detection": true
+      },
+      "reference_detector_config": {
+        "width": 160,
+        "steps": 16,
+        "endpoint_sigma": 0.02,
+        "frozen_event_encoder": true,
+        "evidence_config": {
+          "width": 160,
+          "steps": 4,
+          "noise": 0.1,
+          "minimum_force_N": 6.0,
+          "conditional_source": true,
+          "summary_mode": "class",
+          "cardinality_width": 64,
+          "count_offset": 0.25,
+          "force_decision_gain": 0.1,
+          "classifier_decision_gain": 0.25,
+          "preserved_count": true,
+          "preserved_detection": true
+        },
+        "single_contact": true,
+        "lie_event_guard": true,
+        "minimum_sample_force_N": 0.0,
+        "upright_event_guard": false,
+        "event_mixture": true,
+        "event_logit_scale": 16.0,
+        "event_logit_bias": 3.19999999999996,
+        "event_margin_residual": true,
+        "event_residual_bound": 4.0,
+        "event_motion_gain": -2.5,
+        "event_residual_scale": 1.0,
+        "temporal_width": 96,
+        "temporal_heads": 4,
+        "temporal_layers": 2,
+        "temporal_event_scale": 0.1,
+        "temporal_base_input": true
+      },
+      "presence_guard": true,
+      "relative_force_threshold": 0.0,
+      "lying_minimum_force_N": null,
+      "reference_detector_mode": "scalar1"
+    },
+    "torque_scale": 4.0
+  },
+  "preprocessing": "g1_sensors_96",
+  "deterministic": false,
+  "dense_output": true,
+  "report_lag_frames": 25,
+  "inference_stride_frames": 5,
+  "debounce_outputs": 1,
+  "source_distribution": "standard_normal",
+  "joint_noise_shape": [
+    50,
+    210
+  ],
+  "presence_noise_shape": [
+    50,
+    1
+  ],
+  "presence_mode": "scalar1",
+  "force_output_shape": [
+    50,
+    90
+  ],
+  "gate_output_shape": [
+    50,
+    30
+  ],
+  "relative_force_threshold": 0.0,
+  "force_frame": "pelvis",
+  "force_unit": "N",
+  "sample_rate_hz": 50,
+  "direct_output": true,
+  "confidence_output": false,
+  "contact_scope": "multiple_external_links",
+  "sequence_readout": "dense_center_block",
+  "sampled_output_frames": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+  ],
+  "temporal_distribution": "joint_50_frame_wrench_gate_flow",
+  "source_seed_policy": "fresh host RNG each deployment; logged seed and draw index for replay",
+  "presence_policy": "Scalar event flow and lying evidence guard; weights frozen after reference training",
+  "force_threshold_policy": "5 N contact threshold; force and torque outputs are not capped",
+  "name": "sixthsense",
+  "export_schema": "sixthsense_link_origin_wrench/1",
+  "version": "TRACKING-SCRATCH-B-10000",
+  "variant": "tracking-joint-wrench-scratch-b10k",
+  "display_name": "Sixthsense",
+  "endpoint_sigma": 0.02,
+  "minimum_force_N": 5.0,
+  "gate_threshold": 1.0,
+  "presence_guard": true,
+  "presence_steps": 16,
+  "checkpoint_internal_step": 10000,
+  "correctness_force_updates": 0,
+  "wrench_output_shape": [
+    50,
+    6,
+    30
+  ],
+  "torque_output_shape": [
+    50,
+    3,
+    30
+  ],
+  "wrench_components": [
+    "Fx",
+    "Fy",
+    "Fz",
+    "Tx",
+    "Ty",
+    "Tz"
+  ],
+  "wrench_units": [
+    "N",
+    "N",
+    "N",
+    "Nm",
+    "Nm",
+    "Nm"
+  ],
+  "torque_frame": "pelvis",
+  "torque_unit": "Nm",
+  "generator_kind": "joint_link_origin_wrench_cfm_v1",
+  "joint_generator_updates": 10000,
+  "reference_provenance": {
+    "parent_sha256": "3ef0719649846530680a507e7d2d170eea089670dc2eda41325074b9cf899730",
+    "force_generator_frozen": false,
+    "teacher_in_inference": false,
+    "reference_modules_frozen": true
+  },
+  "training_configuration": {
+    "name": "stage_b_clean_wrench",
+    "observation_noise_fraction": 0.1,
+    "teacher_weight": 2.5,
+    "wrench_augmentation": {
+      "maximum_distance": 0.4,
+      "joint_tolerance_Nm": 4.0,
+      "force_scale_fraction": 0.1,
+      "force_angle_degrees": 5.0,
+      "torque_scale_fraction": 0.1,
+      "torque_angle_degrees": 10.0,
+      "alternative_mass": 0.4,
+      "torque_bound_Nm": 8.0,
+      "clean_original_labels": true
+    },
+    "simulation_augmentation": {
+      "observation_noise_fraction": 0.05,
+      "wrench_augmentation": {
+        "maximum_distance": 0.2,
+        "joint_tolerance_Nm": 2.0,
+        "force_scale_fraction": 0.05,
+        "force_angle_degrees": 2.5,
+        "torque_scale_fraction": 0.05,
+        "torque_angle_degrees": 5.0,
+        "alternative_mass": 0.2,
+        "torque_bound_Nm": 8.0,
+        "clean_original_labels": true
+      }
+    },
+    "real_stand_direction": {
+      "weight": 0.01,
+      "minimum_force_N": 10.0
+    },
+    "real_walk_replay": {
+      "batch_size": 8,
+      "positive_fraction": 0.75,
+      "rollout_steps": 8,
+      "classification_weight": 0.1,
+      "teacher_weight": 1.0,
+      "positive_cost": 8.0,
+      "quiet_cost": 2.0,
+      "readout_weight": 3.0,
+      "observation_noise_fraction": 0.0
+    }
+  },
+  "training_run": "b10k_tracking_scratch_20261005",
+  "training_from_random": true,
+  "deployment_scope": "project_runtime_offline_online",
+  "experimental": true,
+  "acceptance": "Local user trial",
+  "checkpoint_label": "sixthsense"
+}

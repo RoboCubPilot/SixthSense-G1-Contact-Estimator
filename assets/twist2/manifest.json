@@ -1,0 +1,77 @@
+{
+  "scenario": "twist2",
+  "frequency_hz": 50,
+  "initialization": "reference first-frame pose; initial velocity follows each motion entry",
+  "policy_sha256": "126ab9089b6ca0be8b6582fc9ef17b0b6c6d6577378f9324a2e10d580fe48f2e",
+  "motions": [
+    {
+      "id": 1,
+      "file": "motion_01.pkl",
+      "label": "Walk 001",
+      "reference_velocity": false,
+      "sha256": "ab264dea49acd42b0e90959e07b2c973183bb90ecc6b7303b8385ff112b7843f",
+      "conversion": "none"
+    },
+    {
+      "id": 2,
+      "file": "motion_06.pkl",
+      "label": "Walk 02",
+      "duration_s": 7.366593,
+      "reference_velocity": true,
+      "source_frame_start": 1458,
+      "source_frame_end_exclusive": 1680,
+      "artifact_frame_start": 18,
+      "artifact_frame_end_exclusive": 240,
+      "conversion": "existing GMR Unitree G1 qpos; xyz+wxyz+29 joints -> root xyzw; preserve original fps 30.000300003; continuous excerpt",
+      "sha256": "6ce72a0de6d7a72e7b2ef3ecb50e4ff334826ac96972b6658f2b07cfca7e31ee"
+    },
+    {
+      "dance_id": 1,
+      "file": "motion_05.pkl",
+      "label": "Dance Disco",
+      "duration_s": 13.966666666666667,
+      "reference_velocity": true,
+      "source_frame_start": 315,
+      "source_frame_end_exclusive": 735,
+      "conversion": "GMR bvh_lafan1 -> unitree_g1; xyzw quaternion; original 30 fps; continuous excerpt",
+      "sha256": "65fcd2ccd4258afe8e5e22917769b3336b610ea635d086361e3268c91df16bed",
+      "retarget_frame_start": 300,
+      "ik_warmup_iterations": 8,
+      "id": 3
+    },
+    {
+      "dance_id": 2,
+      "file": "motion_04.pkl",
+      "label": "Dance Groove",
+      "duration_s": 12.966666666666667,
+      "reference_velocity": false,
+      "source_frame_start": 180,
+      "source_frame_end_exclusive": 570,
+      "conversion": "GMR bvh_lafan1 -> unitree_g1; xyzw quaternion; original 30 fps; continuous excerpt",
+      "sha256": "ae34ce39529091e154ea270cfff58d413f60a7bf4b84aea36ecbfd4260315560",
+      "retarget_frame_start": 180,
+      "ik_warmup_iterations": 8,
+      "id": 4
+    },
+    {
+      "id": 5,
+      "file": "motion_02.pkl",
+      "label": "Swing",
+      "reference_velocity": false,
+      "sha256": "4be7106749d3ea6b408d52abd0b2ac5c7344667e2a1f95fee3092e4b24625b11",
+      "conversion": "none"
+    },
+    {
+      "id": 6,
+      "file": "motion_03.pkl",
+      "label": "Tai Chi",
+      "duration_s": 11.966666666666667,
+      "reference_velocity": true,
+      "sha256": "2594afc583b95e793b0bbc32e74e6b5b171721a61b44e3ea0a970c1b0088c369",
+      "source_frame_start": 0,
+      "source_frame_end_exclusive": 1440,
+      "conversion": "GMR smplx -> unitree_g1; 29 joints; root xyzw; continuous excerpt at 30 fps",
+      "ik_warmup_iterations": 12
+    }
+  ]
+}
