@@ -4,7 +4,7 @@
 
 ## Paper
 
-[**SixthSense: Task-Agnostic Proprioception-Only Whole-Body Wrench Estimation for Humanoids**](https://arxiv.org/abs/2605.01427) has been accepted for publication in **IEEE Robotics and Automation Letters (RA-L)**. SixthSense enables whole-body contact perception for humanoids using proprioception alone, without tactile or force sensors. We release a [**21.6-minute real-world contact dataset**](https://huggingface.co/datasets/BlablaO/SixthSense-G1-Contact-Dataset) with 372 recordings across standing, walking, and lying, including robot signals and paired camera videos.
+[**SixthSense: Task-Agnostic Proprioception-Only Whole-Body Wrench Estimation for Humanoids**](https://arxiv.org/abs/2605.01427) has been accepted for publication in **IEEE Robotics and Automation Letters (RA-L)**. SixthSense enables whole-body contact perception for humanoids using proprioception alone, without tactile or force sensors. We release a [**21.6-minute real-world contact dataset collected on the Unitree G1 humanoid robot**](https://huggingface.co/datasets/BlablaO/SixthSense-G1-Contact-Dataset), with 372 recordings across standing, walking, and lying, including robot signals and paired camera videos.
 
 ## 1. Installation
 
