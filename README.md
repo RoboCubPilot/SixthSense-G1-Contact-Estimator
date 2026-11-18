@@ -1,5 +1,10 @@
 # SixthSense
 
+<p align="center">
+  <img src="assets/demos/sixthsense_collision.gif" alt="Collision with synchronized SixthSense contact-force estimates" width="49%" />
+  <img src="assets/demos/sixthsense_pulling.gif" alt="Pulling with synchronized SixthSense contact-force estimates" width="49%" />
+</p>
+
 **SixthSense estimates whole-body contact timing, location, and 6D wrenches from proprioceptive and IMU signals using conditional flow matching.** This repository includes an ONNX model, recorded robot data, a browser replay viewer, and MuJoCo simulation for standing, walking, lying, and TWIST2 motion tracking.
 
 ## Paper
