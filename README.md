@@ -1,6 +1,12 @@
-# Sixthsense
+# SixthSense
 
-**Sixthsense enables robots to sense external forces and torques across their entire body and across tasks using proprioception alone.** This anonymous review package includes an ONNX model, recorded robot data, a browser replay viewer, and MuJoCo simulation for standing, walking, lying, and TWIST2 motion tracking.
+**SixthSense estimates whole-body contact timing, location, and 6D wrenches from proprioceptive and IMU signals using conditional flow matching.** This repository includes an ONNX model, recorded robot data, a browser replay viewer, and MuJoCo simulation for standing, walking, lying, and TWIST2 motion tracking.
+
+## Paper
+
+[**SixthSense: Task-Agnostic Proprioception-Only Whole-Body Wrench Estimation for Humanoids**](https://arxiv.org/abs/2605.01427), accepted for publication in **IEEE Robotics and Automation Letters (RA-L)**.
+
+[Paper](https://arxiv.org/abs/2605.01427) · [Full dataset](https://huggingface.co/datasets/BlablaO/SixthSense-G1-Contact-Dataset)
 
 ## 1. Installation
 
@@ -12,7 +18,9 @@ python -m pip install -r requirements.txt
 
 ## 2. Recorded Robot Replay
 
-This supplementary package includes a compact dataset subset with 43 recordings across standing, walking, and lying, including HDF5 signals and paired camera videos. Personal source paths are removed from metadata; numerical signals and video files are preserved. The complete dataset is distributed separately during review; author-linked external URLs are withheld.
+This repository includes a compact dataset subset with 43 recordings across standing, walking, and lying, including HDF5 signals and paired camera videos.
+
+The **[complete SixthSense G1 Contact Dataset is available on Hugging Face](https://huggingface.co/datasets/BlablaO/SixthSense-G1-Contact-Dataset)**. It contains **372 recordings** (312 standing, 30 walking, and 30 lying), with robot signals, paired camera videos, and scenario-specific contact annotations. See the dataset card for the file structure, signal fields, and annotation details.
 
 ### 2.1 Standing
 
@@ -110,3 +118,19 @@ flowchart TD
 | `A`, `W_out` | Contact mask and final wrenches: `W_out = A * W`. Inactive links have zero force and torque. |
 
 The ONNX outputs `raw_wrench` (`W`) and `wrench` (`W_out`) both have shape `[B, 50, 6, 30]`: 50 frames, 6 components and 30 links per sample. Components are `[Fx, Fy, Fz, Tx, Ty, Tz]`, with force in N and torque in N·m. Both use pelvis axes; torque is measured about each link's body origin.
+
+## 5. Citation
+
+If you use this code or the dataset, please cite:
+
+```bibtex
+@article{chen2026sixthsense,
+  title   = {SixthSense: Task-Agnostic Proprioception-Only Whole-Body Wrench Estimation for Humanoids},
+  author  = {Chen, Xingzhou and Xu, Xiayan and Ning, Yan and Yu, Jiyu and Zhang, Yizheng and Qian, Siyi and Xiang, Lingzhu and Chen, Jiahao and Wang, Yuquan and Zhang, Haodong and Shi, Ling},
+  journal = {arXiv preprint arXiv:2605.01427},
+  year    = {2026},
+  doi     = {10.48550/arXiv.2605.01427},
+  url     = {https://arxiv.org/abs/2605.01427},
+  note    = {Accepted for publication in IEEE Robotics and Automation Letters (RA-L)}
+}
+```
